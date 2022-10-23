@@ -2,23 +2,52 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import "./Landing.css"
  
 const Landing = () => {
-  const settings = {
- 
-dots: true,
- 
-infinite: true,
-speed: 500,
-slidesToShow: 1,
-slidesToScroll: 1,
-autoplay:true,
-autoplaySpeed:1500,
+
+  var settings = {
+    
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  
+    autoplay:"true",
+    autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
     <div>
-     <div className=" bg-[#a43e3e] ">
+     <div className="  px-7 ">
 
 
      <Slider {...settings}>
@@ -26,7 +55,7 @@ autoplaySpeed:1500,
     
    
     
-   <div className="mx-auto">
+   <div className="">
    <div
          className="hero min-h-screen"
          style={{
@@ -49,7 +78,7 @@ autoplaySpeed:1500,
    </div>
    
      
-      <div className="mx-auto">
+      <div className="">
       <div
          className="hero min-h-screen"
          style={{
@@ -72,7 +101,7 @@ autoplaySpeed:1500,
      
       </div>
      
-       <div className="mx-auto">
+       <div className="">
        <div
          className="hero min-h-screen"
          style={{
@@ -95,7 +124,7 @@ autoplaySpeed:1500,
        </div>
      
      
-      <div className="mx-auto">
+      <div className="">
       <div
          className="hero min-h-screen"
          style={{
