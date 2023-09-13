@@ -1,53 +1,84 @@
-import React from 'react';
+import React, { useState } from "react";
 
 const Navbar = () => {
-     return (
-          <div>
-               <div className="navbar bg-base-100">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <label tabIndex={0} className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-      </label>
-      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Item 1</a></li>
-        <li tabIndex={0}>
-          <a className="justify-between">
-            Parent
-            <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-          </a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal p-0">
-      <li><a>Item 1</a></li>
-      <li tabIndex={0}>
-        <a>
-          Parent
-          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-        </a>
-        <ul className="p-2">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-        </ul>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn">Get started</a>
-  </div>
-</div>
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <div>
+      <nav className="bg-blue-500 p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="text-white font-semibold text-xl">Your Logo</div>
+          <div className="hidden md:flex space-x-4">
+            <a href="#" className="text-white">
+              Home
+            </a>
+            <a href="#" className="text-white">
+              About
+            </a>
+            <a href="#" className="text-white">
+              Services
+            </a>
+            <a href="#" className="text-white">
+              Contact
+            </a>
           </div>
-     );
+          <div className="md:hidden">
+            <button
+              onClick={toggleNavbar}
+              className="text-white p-2 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {isOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          className={`md:hidden ${
+            isOpen ? "transform translate-x-0" : "transform -translate-x-full"
+          } transition-left duration-300`}
+        >
+          <div className="flex flex-col items-center mt-2">
+            <a href="#" className="text-white p-2">
+              Home
+            </a>
+            <a href="#" className="text-white p-2">
+              About
+            </a>
+            <a href="#" className="text-white p-2">
+              Services
+            </a>
+            <a href="#" className="text-white p-2">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
 };
 
 export default Navbar;
