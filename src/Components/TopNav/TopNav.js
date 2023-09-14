@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
-import breakfast from "../../assets/breakfast.png";
+import breakfast from "../../assets/breakfast (2).png";
+import lunch from "../../assets/lunch.png";
+ 
 const TopNav = () => {
   return (
     <div>
@@ -28,7 +30,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div>
-                <img className="w-6" src={breakfast} alt="" />
+                <img className="w-6" src={lunch} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
