@@ -4,6 +4,10 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
 import breakfast from "../../assets/breakfast (2).png";
 import lunch from "../../assets/lunch.png";
+import evening from "../../assets/burger.png";
+import dinner from "../../assets/dinner.png";
+import call from "../../assets/call-center.gif";
+import email from "../../assets/email.gif";
  
 const TopNav = () => {
   return (
@@ -17,7 +21,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div className="">
-                <img className="w-6  " src={breakfast} alt="" />
+                <img className="w-7  " src={breakfast} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -30,7 +34,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div>
-                <img className="w-6" src={lunch} alt="" />
+                <img className="w-7" src={lunch} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -43,7 +47,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div className="">
-                <img className="w-6  " src={breakfast} alt="" />
+                <img className="w-7  " src={evening} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -56,7 +60,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div>
-                <img className="w-6" src={breakfast} alt="" />
+                <img className="w-7" src={dinner} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -73,7 +77,8 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div>
-                <MdOutlinePhonelinkRing className="text-[10px] lg:text-2xl    " />
+                {/* <MdOutlinePhonelinkRing className="text-[10px] lg:text-2xl    " /> */}
+                <img className="w-7 rounded-full" src={call} alt=""/>
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -89,7 +94,7 @@ const TopNav = () => {
               // style={{ color: "#92468E" }}
             >
               <div>
-                <HiOutlineMailOpen className="text-[10px] lg:text-2xl  	  " />
+                <img src={email} className="w-7 rounded-full" alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs     	">Email us</p>
