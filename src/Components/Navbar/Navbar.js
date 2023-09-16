@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/tcclogo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,29 +8,74 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+  const active =
+    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1  bg-red-900   transition   bg-opacity-20 hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
+
+  const normal =
+    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-blue-800   ";
+  const navItem = (
+    <>
+      <li className="nav-item p-2 list-none 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/home"
+        >
+          Home
+        </NavLink>
+      </li>
+
+      <li className="nav-item p-2 list-none	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/news-media"
+        >
+          Clients
+        </NavLink>
+      </li>
+      <li className="nav-item p-2 	list-none">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
+          to="/career"
+        >
+          AI
+        </NavLink>
+      </li>
+
+      <li className="nav-item p-2 list-none	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/about"
+        >
+          About us
+        </NavLink>
+      </li>
+
+      <li className="nav-item p-2  	list-none">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/contact"
+        >
+          Contacts
+        </NavLink>
+      </li>
+    </>
+  );
+
   return (
     <div>
-      <nav className="bg-blue-500 p-4">
+      <nav className="bg-white p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-semibold text-xl">Your Logo</div>
-          <div className="hidden md:flex space-x-4">
-            <a href="#" className="text-white">
-              Home
-            </a>
-            <a href="#" className="text-white">
-              About
-            </a>
-            <a href="#" className="text-white">
-              Services
-            </a>
-            <a href="#" className="text-white">
-              Contact
-            </a>
+          <div className="text-white font-semibold text-xl">
+
+<img src={logo} className="w-24 rounded-lg" alt=""/> 
+
           </div>
+          <div className="hidden md:flex space-x-4 d-none">{navItem}</div>
           <div className="md:hidden">
             <button
               onClick={toggleNavbar}
-              className="text-white p-2 focus:outline-none"
+              className="text-blue p-2 focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,18 +109,8 @@ const Navbar = () => {
           } transition-left duration-300`}
         >
           <div className="flex flex-col items-center mt-2">
-            <a href="#" className="text-white p-2">
-              Home
-            </a>
-            <a href="#" className="text-white p-2">
-              About
-            </a>
-            <a href="#" className="text-white p-2">
-              Services
-            </a>
-            <a href="#" className="text-white p-2">
-              Contact
-            </a>
+             
+            {navItem}
           </div>
         </div>
       </nav>

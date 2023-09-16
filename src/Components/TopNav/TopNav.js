@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { MdOutlinePhonelinkRing } from "react-icons/md";
 import breakfast from "../../assets/breakfast (2).png";
 import lunch from "../../assets/lunch.png";
 import evening from "../../assets/burger.png";
@@ -107,22 +104,7 @@ const TopNav = () => {
                 </a>
               </div>
             </div>
-            {/* <div
-            className="   lg:flex items-center font-bold    gap-2"
-            style={{ color: "#92468E" }}
-          >
-            <div>
-            <p className="text-[5px] sm:m-4 lg:text-xs text-transparent  bg-clip-text bg-gradient-to-l from-[#FECD04] to-[#F2A04A]  	">
-                Link Organization
-              </p>
-            </div>
-            <div>
-              
-              <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-28  	" alt=""/></a>
-              <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
-               
-            </div>
-          </div> */}
+          
           </div>
         </div>
       </div>
