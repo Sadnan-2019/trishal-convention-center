@@ -3,33 +3,29 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
-import { motion, AnimatePresence } from "framer-motion";
-// import { AnimatePresence } from "framer-motion";
-
+import { BsArrowRight } from "react-icons/bs";
+// import { Link } from "react-router-dom";
+import { FaPhoneVolume } from "react-icons/fa";
+import { AnimatePresence, motion } from "framer-motion";
+// import { Typewriter } from "react-simple-typewriter";
 const Landing = () => {
-  const sentences = ["Sentence 1", "Sentence 2", "Sentence 3"];
-  const backgroundImages = [
-    "../../assets/landingone.jpg",
-    "../../assets/landingone.jpg",
-    "../../assets/landingone.jpg",
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const sentences = [
+    "Artificial intelligence (AI) is the intelligence of machines",
+    "or software, as opposed to the intelligence of human beings or animals",
+
+    // Add more sentences as needed
   ];
-  console.log(backgroundImages)
-  
-  const transition = { duration: 0.5, ease: "easeInOut" };
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === sentences.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 3000);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % sentences.length);
+    }, 5000); // Change the duration as needed
 
     return () => clearInterval(interval);
   }, [sentences.length]);
-
-
 
   var settings = {
     dots: true,
@@ -38,7 +34,13 @@ const Landing = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-
+    fade: true,
+    afterChange: (index) => {
+      setCurrentSlide(index);
+    },
+    // afternewChange: (index) => {
+    //   setCurrentSlideTwo(index);
+    // },
     autoplay: "true",
     autoplaySpeed: 5000,
     responsive: [
@@ -70,96 +72,178 @@ const Landing = () => {
   };
 
   return (
-    <div>
-      <div className="  px-7 ">
-        <Slider {...settings}>
-          <div className="">
-          <div className="container">
-      <AnimatePresence mode='wait'>
-        <motion.div
-          key={currentIndex}
-          initial={{ opacity: 0, y: "100%" }}
-          animate={{ opacity: 1, y: "0%" }}
-          exit={{ opacity: 0, y: "-100%" }}
-          transition={transition}
-          className="text-container"
-        >
-          <h2>{sentences[currentIndex]}</h2>
-        </motion.div>
-      </AnimatePresence>
-      <div className="background">
-        <img src={backgroundImages[currentIndex]} alt="Background" />
-      </div>
-    </div>
-          </div>
+    <div className="full-width-slider">
+      {/* <h2> Responsive </h2> */}
+      <Slider {...settings} className="">
+        <div className=" ">
+          <section className="landingone  blog h-auto      text-white">
+            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+              <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
+                <h2
+                  style={{ lineHeight: "120%" }}
+                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                    currentSlide === 0 ? "animated" : ""
+                  }`}
+                >
+                  {" "}
+                  The Media and Research Solutions (MRS) is a business
+                  organization
+                </h2>
 
-          {/* <div className="">
-            <div
-              className="hero min-h-screen"
-              style={{
-                backgroundImage: `url("https://images.adsttc.com/media/images/5192/55d3/b3fc/4b8d/f000/005c/large_jpg/MBS_Image_by_BIG_03.jpg?1368544714")`,
-              }}
-            >
-              <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                  <p className="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                    assumenda excepturi exercitationem quasi. In deleniti eaque
-                    aut repudiandae et a id nisi.
-                  </p>
-                  <button className="btn btn-primary">Get Started</button>
+                <h1
+                  className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
+                  style={{ lineHeight: "120%", color: "white" }}
+                >
+                  which aims to reproduce and influence.{" "}
+                </h1>
+
+                <div className="flex items-center mt-2 font-bold">
+                  <FaPhoneVolume
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <span
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  >
+                    {" "}
+                    Call Now: 01643-390832
+                  </span>
+                </div>
+
+                <div className="flex  gap-4 mt-10 text-center">
+                  <a
+                    href="/"
+                    className={`slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                      currentSlide === 0 ? "animated" : ""
+                    }`}
+                  >
+                    <span className="text-sm font-medium">
+                      {" "}
+                      GET STARTED WITH US
+                    </span>
+                    <BsArrowRight className="text-lg hidden lg:ml-2" />
+                  </a>
                 </div>
               </div>
-            </div>
-          </div> */}
 
-          {/* <div className="">
+              {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+                  <img
+                    src={camera}
+                    alt=""
+                    className="rounded-full h-5/6 w-5/6 "
+                  />
+                </div> */}
+            </div>
+
             <div
-              className="hero min-h-screen"
-              style={{
-                backgroundImage: `url("https://stcharlesconventioncenter.com/assets/images/galleries/full/Szqtm.jpeg")`,
-              }}
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                  <p className="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                    assumenda excepturi exercitationem quasi. In deleniti eaque
-                    aut repudiandae et a id nisi.
-                  </p>
-                  <button className="btn btn-primary">Get Started</button>
+              <svg
+                className=""
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill="white"
+                  fill-opacity="50"
+                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </div>
+        <div className=" ">
+          <section className="landingtwo  blog h-auto       text-white">
+            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+              <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
+                <h2
+                  style={{ lineHeight: "120%" }}
+                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                    currentSlide === 1 ? "animated" : ""
+                  }`}
+                >
+                  {" "}
+                  UNMATCHED EXPERIENCE.
+                </h2>
+
+                <h1
+                  className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
+                  style={{ lineHeight: "120%", color: "white" }}
+                >
+                  Industry leading results and next-gen technology.
+                </h1>
+
+                <div className="flex items-center mt-2 font-bold">
+                  <FaPhoneVolume
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <span
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  >
+                    {" "}
+                    Call Now: 01643-390832
+                  </span>
+                </div>
+
+                <div className="flex  gap-4 mt-10 text-center">
+                  <a
+                    href="/"
+                    className={`slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                      currentSlide === 1 ? "animated" : ""
+                    }`}
+                  >
+                    <span className="text-sm font-medium">
+                      {" "}
+                      GET STARTED WITH US
+                    </span>
+                    <BsArrowRight className="text-lg hidden lg:ml-2" />
+                  </a>
                 </div>
               </div>
-            </div>
-          </div> */}
 
-          {/* <div className="">
-            <div
-              className="hero min-h-screen"
-              style={{
-                backgroundImage: `url("https://placeimg.com/1000/800/arch")`,
-              }}
-            >
-              <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                  <p className="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                    assumenda excepturi exercitationem quasi. In deleniti eaque
-                    aut repudiandae et a id nisi.
-                  </p>
-                  <button className="btn btn-primary">Get Started</button>
-                </div>
+              <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+                <AnimatePresence mode="wait">
+                  <motion.h2
+                    key={currentIndex}
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -50 }}
+                    transition={{ duration: 1 }}
+                    style={{ lineHeight: "120%" }}
+                    className="animated-text lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+                  >
+                    {sentences[currentIndex]}
+                  </motion.h2>
+                </AnimatePresence>
               </div>
             </div>
-          </div> */}
-        </Slider>
-      </div>
+
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <svg
+                className=""
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill="white"
+                  fill-opacity="50"
+                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </div>
+        
+      </Slider>
     </div>
   );
 };
