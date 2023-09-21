@@ -78,10 +78,6 @@
   background-repeat: no-repeat;
 }
 
-
-
-
-
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -92,16 +88,6 @@
     transform: translateY(0);
   }
 }
-
-.animated-fade-in {
-  animation: fade-in 1s ease-in-out;
-}
-
-
-
-
-
-
 
 .slide-text {
   opacity: 0;
@@ -114,19 +100,5 @@
 
   animation-duration: 1s;
 }
-@keyframes bounce-in-down {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animated-text-container {
-  width: 100%;
-  height: 70vh; /* Set the desired height for your background image container */
-  overflow: hidden;
-  position: relative;
-}
+/*  */
+ 
