@@ -34,7 +34,7 @@ const Landing = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    fade: true,
+    // fade: true,
     afterChange: (index) => {
       setCurrentSlide(index);
     },
