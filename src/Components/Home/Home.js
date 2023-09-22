@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from '../Landing/Landing';
 import About from '../About/About';
+import Services from '../Services/Services';
 // import SliderWithText from '../SliderWithText/SliderWithText';
 
 const Home = () => {
@@ -9,8 +10,8 @@ const Home = () => {
               <Landing/> 
               
                {/* <SliderWithText></SliderWithText> */}
-
-               <About></About>
+               <Services></Services>
+               {/* <About></About> */}
               
           </div>
      );
