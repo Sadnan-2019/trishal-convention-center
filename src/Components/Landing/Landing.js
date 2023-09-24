@@ -206,7 +206,7 @@ const Landing = () => {
                 </div>
               </div>
 
-              <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+              {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
                 <AnimatePresence mode="wait">
                   <motion.h2
                     key={currentIndex}
@@ -220,7 +220,7 @@ const Landing = () => {
                     {sentences[currentIndex]}
                   </motion.h2>
                 </AnimatePresence>
-              </div>
+              </div> */}
             </div>
 
             <div
