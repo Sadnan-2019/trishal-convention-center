@@ -86,7 +86,7 @@ const Landing = () => {
                   }`}
                 >
                   {" "}
-                  The Media and Research Solutions (MRS) is a business
+                  Trishal Convention Center (TCC) is a business
                   organization
                 </h2>
 
@@ -107,7 +107,7 @@ const Landing = () => {
                     style={{ color: "white" }}
                   >
                     {" "}
-                    Call Now: 01643-390832
+                    Call Now: 01643-000000
                   </span>
                 </div>
 
@@ -120,7 +120,7 @@ const Landing = () => {
                   >
                     <span className="text-sm font-medium">
                       {" "}
-                      GET STARTED WITH US
+                    MORE EXPLORE
                     </span>
                     <BsArrowRight className="text-lg hidden lg:ml-2" />
                   </a>
@@ -166,14 +166,14 @@ const Landing = () => {
                   }`}
                 >
                   {" "}
-                  UNMATCHED EXPERIENCE.
+                  SUNFLOWER RESIDENCE.
                 </h2>
 
                 <h1
                   className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                   style={{ lineHeight: "120%", color: "white" }}
                 >
-                  Industry leading results and next-gen technology.
+                  
                 </h1>
 
                 <div className="flex items-center mt-2 font-bold">
