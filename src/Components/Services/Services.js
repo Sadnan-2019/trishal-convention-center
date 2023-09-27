@@ -3,15 +3,15 @@ import tgr from "../../assets/tgr.jpg";
 import tgrone from "../../assets/tgrone.png";
 import tgrtwo from "../../assets/tgr2.jpg";
 import tgrthree from "../../assets/tgr3.png";
- 
+
 import "./Services.css";
 
 const Services = () => {
-  const [isFlipped, setIsFlipped] = useState(false);
+  // const [isFlipped, setIsFlipped] = useState(false);
 
-  const toggleCard = () => {
-    setIsFlipped(!isFlipped);
-  };
+  // const toggleCard = () => {
+  //   setIsFlipped(!isFlipped);
+  // };
 
   return (
     <div>
@@ -49,19 +49,13 @@ const Services = () => {
                         <div class="card-3d-wrapper">
                           <div class="card-front">
                             <div class="pricing-wrap">
-                            
                               <p class="mb-1">
                                 <i class="uil uil-location-pin-alt size-22"></i>
                               </p>
-                            
+
                               <div class="img-wrap img-2">
-                                <img
-                                  src={tgr}
-                                  alt=""
-                                  className="h-96"
-                                />
+                                <img src={tgr} alt="" className="h-96" />
                               </div>
-                              
                             </div>
                           </div>
                           <div class="card-back">
@@ -93,65 +87,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-        <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-      <div className="card-inner">
-        {/* Front side */}
-        <div className="card-front">
-          <img
-            src="/front-image.jpg" // Replace with your front image URL
-            alt="Front"
-            className="w-60 h-60 object-cover"
-          />
-          <button
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-            onClick={toggleCard}
-          >
-            Show Back
-          </button>
-        </div>
-
-        {/* Back side */}
-        <div className="card-back">
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="/back-image1.jpg" // Replace with your back image URLs
-              alt="Back 1"
-              className="w-32 h-32 object-cover animate-fade-in"
-            />
-            <img
-              src="/back-image2.jpg" // Replace with your back image URLs
-              alt="Back 2"
-              className="w-32 h-32 object-cover animate-fade-in"
-            />
-          </div>
-          <button
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-            onClick={toggleCard}
-          >
-            Show Front
-          </button>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
     </div>
   );
