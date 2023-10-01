@@ -4,28 +4,30 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
 import { BsArrowRight } from "react-icons/bs";
-// import { Link } from "react-router-dom";
+import camera  from "../../assets/why6.jpg"
 import { FaPhoneVolume } from "react-icons/fa";
-import { AnimatePresence, motion } from "framer-motion";
-// import { Typewriter } from "react-simple-typewriter";
+// import { AnimatePresence, motion } from "framer-motion";
+ 
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const sentences = [
-    "Artificial intelligence (AI) is the intelligence of machines",
-    "or software, as opposed to the intelligence of human beings or animals",
+  const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
+  // const sentences = [
+  //   "Artificial intelligence (AI) is the intelligence of machines",
+  //   "or software, as opposed to the intelligence of human beings or animals",
 
-    // Add more sentences as needed
-  ];
+     
+  // ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndexTwo, setCurrentIndexTwo] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % sentences.length);
-    }, 5000); // Change the duration as needed
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % sentences.length);
+  //   }, 5000); // Change the duration as needed
 
-    return () => clearInterval(interval);
-  }, [sentences.length]);
+  //   return () => clearInterval(interval);
+  // }, [sentences.length]);
 
   var settings = {
     dots: true,
@@ -34,10 +36,12 @@ const Landing = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    // fade: true,
+    fade: true,
     afterChange: (index) => {
       setCurrentSlide(index);
+      setCurrentSlideTwo(index);
     },
+     
     // afternewChange: (index) => {
     //   setCurrentSlideTwo(index);
     // },
@@ -76,7 +80,7 @@ const Landing = () => {
       {/* <h2> Responsive </h2> */}
       <Slider {...settings} className="">
         <div className=" ">
-          <section className="landingone  blog h-auto      text-white">
+          <section className="   blog h-auto      text-white">
             <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
                 <h2
@@ -90,14 +94,14 @@ const Landing = () => {
                   organization
                 </h2>
 
-                <h1
+                {/* <h1
                   className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                   style={{ lineHeight: "120%", color: "white" }}
                 >
                   which aims to reproduce and influence.{" "}
-                </h1>
+                </h1> */}
 
-                <div className="flex items-center mt-2 font-bold">
+                {/* <div className="flex items-center mt-2 font-bold">
                   <FaPhoneVolume
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -109,7 +113,7 @@ const Landing = () => {
                     {" "}
                     Call Now: 01643-000000
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
@@ -127,13 +131,16 @@ const Landing = () => {
                 </div>
               </div>
 
-              {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+              <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
                   <img
                     src={camera}
                     alt=""
-                    className="rounded-full h-5/6 w-5/6 "
+                    // className="rounded-full h-5/6 w-5/6 "
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                      currentSlideTwo === 0 ? "animatedpic" : ""
+                    }`}
                   />
-                </div> */}
+                </div>
             </div>
 
             <div
