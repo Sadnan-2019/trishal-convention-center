@@ -79,13 +79,13 @@ const Landing = () => {
     <div className="full-width-slider">
       {/* <h2> Responsive </h2> */}
       <Slider {...settings} className="">
-        <div className=" ">
+        <div className="bg-gradient-to-r from-[#215083]  to-[#14234e]  ">
           <section className="   blog h-auto      text-white">
-            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+            <div className="  py-10  lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
                 <h2
                   style={{ lineHeight: "120%" }}
-                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
                     currentSlide === 0 ? "animated" : ""
                   }`}
                 >
