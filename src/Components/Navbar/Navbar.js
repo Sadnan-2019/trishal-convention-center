@@ -21,7 +21,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"
         >
-          Home
+          HOME
         </NavLink>
       </li>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/news-media"
         >
-          Clients
+          SERVICES
         </NavLink>
       </li>
       <li className="nav-item p-2 	list-none">
@@ -38,7 +38,15 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
           to="/career"
         >
-          AI
+          FACILITIES
+        </NavLink>
+      </li>
+      <li className="nav-item p-2 	list-none">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
+          to="/career"
+        >
+          OFFER
         </NavLink>
       </li>
 
@@ -47,7 +55,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
         >
-          About us
+          ABOUT US
         </NavLink>
       </li>
 
@@ -56,7 +64,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact"
         >
-          Contacts
+          CONTACTS
         </NavLink>
       </li>
     </>

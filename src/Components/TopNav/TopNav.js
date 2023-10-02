@@ -100,7 +100,7 @@ const TopNav = () => {
                   href="mailto:info@mrs.mrg.com.bd"
                   className="text-[10px] lg:text-xs  	"
                 >
-                  info@mrs.mrg.com.bd
+                  info@tcc.mrg.com.bd
                 </a>
               </div>
             </div>
