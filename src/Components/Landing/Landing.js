@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
 import { BsArrowRight } from "react-icons/bs";
-import camera  from "../../assets/why6.jpg"
+import camera from "../../assets/why6.jpg";
 import { FaPhoneVolume } from "react-icons/fa";
 // import { AnimatePresence, motion } from "framer-motion";
- 
+
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
@@ -15,7 +15,6 @@ const Landing = () => {
   //   "Artificial intelligence (AI) is the intelligence of machines",
   //   "or software, as opposed to the intelligence of human beings or animals",
 
-     
   // ];
 
   // const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,7 +40,7 @@ const Landing = () => {
       setCurrentSlide(index);
       setCurrentSlideTwo(index);
     },
-     
+
     // afternewChange: (index) => {
     //   setCurrentSlideTwo(index);
     // },
@@ -79,8 +78,8 @@ const Landing = () => {
     <div className="full-width-slider">
       {/* <h2> Responsive </h2> */}
       <Slider {...settings} className="">
-        <div className="bg-gradient-to-r from-[#215083]  to-[#14234e]  ">
-          <section className="   blog h-auto      text-white">
+        <div className="  ">
+          <section className="landingone   blog h-auto      text-white">
             <div className="  py-10  lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
                 <h2
@@ -90,8 +89,7 @@ const Landing = () => {
                   }`}
                 >
                   {" "}
-                  Trishal Convention Center (TCC) is a business
-                  organization
+                  Trishal Convention Center (TCC) is a business organization
                 </h2>
 
                 {/* <h1
@@ -118,29 +116,27 @@ const Landing = () => {
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                      currentSlide === 0 ? "animated" : ""
+                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                      currentSlideTwo === 0 ? "animatedpic" : ""
                     }`}
                   >
-                    <span className="text-sm font-medium">
-                      {" "}
                     MORE EXPLORE
-                    </span>
-                    <BsArrowRight className="text-lg hidden lg:ml-2" />
+                    <BsArrowRight className="text-lg   lg:ml-2" />
                   </a>
+                 
+
                 </div>
               </div>
 
               <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-                  <img
-                    src={camera}
-                    alt=""
-                    // className="rounded-full h-5/6 w-5/6 "
-                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
-                      currentSlideTwo === 0 ? "animatedpic" : ""
-                    }`}
-                  />
-                </div>
+                <img
+                  // src={camera}
+                  alt=""
+                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                    currentSlideTwo === 0 ? "animatedpic" : ""
+                  }`}
+                />
+              </div>
             </div>
 
             <div
@@ -179,11 +175,9 @@ const Landing = () => {
                 <h1
                   className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                   style={{ lineHeight: "120%", color: "white" }}
-                >
-                  
-                </h1>
+                ></h1>
 
-                <div className="flex items-center mt-2 font-bold">
+                {/* <div className="flex items-center mt-2 font-bold">
                   <FaPhoneVolume
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -195,7 +189,7 @@ const Landing = () => {
                     {" "}
                     Call Now: 01643-390832
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
@@ -210,6 +204,7 @@ const Landing = () => {
                     </span>
                     <BsArrowRight className="text-lg hidden lg:ml-2" />
                   </a>
+                  
                 </div>
               </div>
 
@@ -249,7 +244,6 @@ const Landing = () => {
             </div>
           </section>
         </div>
-        
       </Slider>
     </div>
   );
