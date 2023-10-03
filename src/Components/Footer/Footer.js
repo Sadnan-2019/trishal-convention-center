@@ -2,8 +2,8 @@ import React from "react";
 import pic1 from "../../assets/footerimge.jpg"
 const Footer = () => {
   return (
-    <div>
-      <footer class="bg-blue-800 lg:grid lg:grid-cols-5 py-8 ">
+    <div className="">
+      <footer class="bg-blue-800 lg:grid lg:grid-cols-5  ">
         <div class="    h-96 lg:col-span-2 lg:h-96">
           <img
             src={pic1}

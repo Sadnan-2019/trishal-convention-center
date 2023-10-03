@@ -16,7 +16,7 @@ import {
 
 const Review = () => {
   return (
-    <div className=" ">
+    <div className="bg-gradient-to-r from-[#1F5185] via-[#0a175402] to-[#1A5A94]   mb-10 ">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -40,6 +40,8 @@ const Review = () => {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className=" grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1  gap-4 py-12 px-12 justify-items-center items-center md:px-12 lg:px-20 "
       >
+        <div className=" ">
+
         <SwiperSlide>
           <div class="container mx-auto py-12 px-4">
             <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
@@ -265,6 +267,7 @@ const Review = () => {
             </div>
           </div>
         </SwiperSlide>
+        </div>
       </Swiper>
 
      
