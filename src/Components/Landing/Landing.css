@@ -60,14 +60,14 @@
   background-repeat: no-repeat;
 }
 .landingthree {
-  background-image: linear-gradient(
-      to left,
-      rgba(2, 1, 9, 0.01),
-      rgba(3, 3, 3, 0.9)
-    ),
-    url("../../assets/landingone.jpg");
+  background-image:  linear-gradient(
+    to left,
+    rgba(193, 212, 192, 0.01),
+    rgba(9, 27, 29, 0.9)
+  ),
+    url("../../assets/landingthree.jpeg");
   /* background-repeat: no-repeat;
-      background-size: cover; */
+      background-size: cover; */  
   height: auto;
   width: 100%;
   /* background-size: contain; */

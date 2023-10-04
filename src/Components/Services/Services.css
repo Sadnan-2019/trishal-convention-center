@@ -13,7 +13,7 @@
 .animate-fade-in {
   animation: fade-in 1s ease-in-out;
 }
-.card {
+/* .card {
   width: 300px;
   height: 400px;
   perspective: 1000px;
@@ -54,87 +54,11 @@
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
-}
+} */
 
  
 
 
-
-/*
-Use the modern Firefox focus style for all focusable elements.
-*/
-
- 
-
-/*
-Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
-*/
-
- 
-
-/*
-Add the correct vertical alignment in Chrome and Firefox.
-*/
-
- 
-
-/*
-Correct the cursor style of increment and decrement buttons in Safari.
-*/
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
-*/
-
- 
-
-/*
-Remove the inner padding in Chrome and Safari on macOS.
-*/
-
- 
-
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
-*/
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-
-/*
-Add the correct display in Chrome and Safari.
-*/
-
- 
-
-/*
-Removes the default spacing and border for appropriate elements.
-*/
-
- 
- 
-
- 
-
-/*
-Prevent resizing textareas horizontally by default.
-*/
- 
-/*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
-*/
 
  
 
@@ -142,40 +66,7 @@ Prevent resizing textareas horizontally by default.
 
  
 
-/*
-Set the default cursor for buttons.
-*/
-
- 
-
-/*
-Make sure disabled buttons don't get the pointer cursor.
-*/
-
- 
-
-/*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
-*/
- 
-
-/*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
-*/
-
- 
-
-/*
-Ensure the default browser behavior of the `hidden` attribute.
-*/
-
- 
-
- 
-
-.absolute {
+/* .absolute {
   position: absolute;
 }
 
@@ -194,27 +85,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex {
   display: flex;
-}
-
-/* .h-screen {
-  height: 100vh;
-}
-
-.h-\[420px\] {
-  height: 420px;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-full {
-  width: 100%;
 } */
+
+ 
 
  
 
@@ -226,10 +99,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 
 
-.gap-x-16 {
+/* .gap-x-16 {
   -moz-column-gap: 4rem;
        column-gap: 4rem;
-}
+} */
 
 .overflow-hidden {
   overflow: hidden;
@@ -265,7 +138,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
-.px-2 {
+/* .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -282,7 +155,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-24 {
   padding-bottom: 6rem;
-}
+} */
 
  
 
