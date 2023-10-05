@@ -31,7 +31,7 @@ const Services = () => {
         </h2>
       </div>
 
-      <div className="  grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3   items-center justify-items-center ">
+      <div className="py-10  grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3   items-center justify-items-center ">
         <section class="rounded-lg     text-white">
           <div class="w-[300px] shadow-xl sha h-[420px] bg-transparent cursor-pointer group perspective">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
