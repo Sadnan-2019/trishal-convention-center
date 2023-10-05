@@ -3,17 +3,19 @@ import whyone from "../../assets/why4.jpg"
 import whytwo from "../../assets/why7.jpg"
 import whythree from "../../assets/why3.jpg"
 import whyfour from "../../assets/why6.jpg"
+import "./Why.css"
 const Why = () => {
      return (
-          <div>
+          <div className=' py-10  '>
              
-<div class="py-16 bg-white">
-    <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
-        <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
-            <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
-                <h1 class="text-4xl text-gray-700 font-bold md:text-5xl">Book now and benefit up to <span class="text-blue-500">30% off</span></h1>
+<div className='why-back p-11'>
+<div class="  ">
+    <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20   ">
+        <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16 ">
+            <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12  ">
+                <h1 class="text-4xl text-white font-bold md:text-5xl  ">Book now and benefit up to <span class="text-blue-500">30% off</span></h1>
                 {/* <p class="text-lg">Be part of millions people around the world using tailus in modern User Interfaces.</p> */}
-                <div class="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
+                <div class="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end  ">
                     <button type="button" title="Start buying" class="w-full py-3 px-6 text-center rounded-xl transition bg-gray-700 shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max">
                         <span class="block text-white font-semibold">
                         More about
@@ -48,8 +50,11 @@ const Why = () => {
                  
             </div>
         </div>
+
+       
     </div>
 </div> 
+</div>
           </div>
      );
 };
