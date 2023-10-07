@@ -3,11 +3,12 @@ import "./Video.css";
 import teacher from "../../assets/teacher-explaining.png";
 const Video = () => {
   return (
-    <div className="py-10 ">
+   <div className="py-10">
+     <div className="py-10 bg-gradient-to-r from-blue-300 to-purple-500">
       <div class="  flex   flex-col md:flex-row  justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16    px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
         <div data-aos="fade-right" class="sm:w-1/2 relative">
         <div class="bg-red-900 rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
-          <h1 class="font-semibold text-2xl relative   text-darken  ">
+          <h1 class="font-semibold text-2xl relative   text-white  ">
             Everything you can do in a physical classroom,{" "}
             <span class="text-yellow-500">you can do with Skilline</span>
           </h1>
@@ -40,6 +41,7 @@ const Video = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 

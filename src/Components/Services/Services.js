@@ -26,7 +26,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          All Solutions Under One Place
+          All Solutions Under One Door
 
         </h2>
       </div>

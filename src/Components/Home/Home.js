@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 import Review from '../Review/Review';
 import Why from '../Why/Why';
 import Video from '../Video/Video';
+import Contact from '../Why/Contact/Contact';
 // import SliderWithText from '../SliderWithText/SliderWithText';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                <Why></Why>
                <Video></Video>
                <Review></Review>
+               <Contact></Contact>
               
           </div>
      );
