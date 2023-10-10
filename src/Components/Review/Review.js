@@ -16,7 +16,7 @@ import {
 
 const Review = () => {
   return (
-    <div className="bg-gradient-to-r from-[#1F5185] via-[#0a175402] to-[#1A5A94]   mb-10 ">
+    <div className="h-scren  mb-10 review ">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -43,7 +43,7 @@ const Review = () => {
         <div className=" ">
 
         <SwiperSlide>
-          <div class="container mx-auto  px-4">
+          <div class="container mx-auto p-10  px-4">
             <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
               <div class="w-full lg:w-1/3 lg:p-4">
                 <img
