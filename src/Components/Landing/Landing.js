@@ -92,26 +92,7 @@ const Landing = () => {
                   Trishal Convention Center (TCC) is a business organization
                 </h2>
 
-                {/* <h1
-                  className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
-                  style={{ lineHeight: "120%", color: "white" }}
-                >
-                  which aims to reproduce and influence.{" "}
-                </h1> */}
-
-                {/* <div className="flex items-center mt-2 font-bold">
-                  <FaPhoneVolume
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <span
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  >
-                    {" "}
-                    Call Now: 01643-000000
-                  </span>
-                </div> */}
+               
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a

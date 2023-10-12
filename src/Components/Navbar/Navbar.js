@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   const active =
-    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1  bg-red-900   transition   bg-opacity-20 hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
+    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-[#215083]  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
 
   const normal =
     "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-blue-800   ";
@@ -28,7 +28,7 @@ const Navbar = () => {
       <li className="nav-item p-2 list-none	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/news-media"
+          to="/services"
         >
           SERVICES
         </NavLink>
@@ -36,7 +36,7 @@ const Navbar = () => {
       <li className="nav-item p-2 	list-none">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
-          to="/career"
+          to="/facilities"
         >
           FACILITIES
         </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
       <li className="nav-item p-2 	list-none">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
-          to="/career"
+          to="/offer"
         >
           OFFER
         </NavLink>
