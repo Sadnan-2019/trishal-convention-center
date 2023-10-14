@@ -54,7 +54,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/back-pain"
+              to="/water-lily-hall"
             >
               Water Lily Hall
             </NavLink>

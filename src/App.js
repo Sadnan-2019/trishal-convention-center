@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import TopNav from './Components/TopNav/TopNav';
 import Footer from './Components/Footer/Footer';
 import Menu from './Components/Menu/Menu';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,8 +17,35 @@ function App() {
       <TopNav></TopNav>
 
       <Navbar/>
+      <Routes>
+      <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        
+         
       
-      <Home/>
+      </Routes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+     
       <Footer></Footer>
 
     </div>
