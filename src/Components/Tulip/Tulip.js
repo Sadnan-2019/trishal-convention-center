@@ -1,5 +1,5 @@
 import React from 'react';
-import sun from "../../assets/sunfive.jpg"
+import "./Tulip.css"
 const Tulip = () => {
     return (
         <div>
@@ -23,15 +23,37 @@ const Tulip = () => {
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-            <img
-              data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
-              src={sun}
-              alt=""
-              className="rounded-lg  "
-            />
+          <div class="partners-intro--thumb aos-init aos-animate newtulip" >
+    <div class="partners-intro--partners">
+        <div class="partners-intro--partners-item -pos-1">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-1.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-1.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-2">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-2.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-2.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-3">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-3.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-3.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-4">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-4.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-4.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-5">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-5.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-5.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-6">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-6.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-6.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-7">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-7.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-7.png" data-was-processed="true"/>
+        </div>
+        <div class="partners-intro--partners-item -pos-8">
+            <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-8.png" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-8.png" data-was-processed="true"/>
+        </div>
+    </div>
+    <div class="partners-intro--logo">
+        <img class="lazy loaded" data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/logo-vector.svg" alt="" src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/logo-vector.svg" data-was-processed="true"/>
+    </div>
+</div>
           </div>
         </div>
 
