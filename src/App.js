@@ -9,6 +9,8 @@ import TopNav from './Components/TopNav/TopNav';
 import Footer from './Components/Footer/Footer';
 import Menu from './Components/Menu/Menu';
 import { Route, Routes } from 'react-router-dom';
+import Waterlily from './Components/Waterlilyhall/Waterlily';
+import Tulip from './Components/Tulip/Tulip';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
+        <Route path="/water-lily-hall" element={<Waterlily />}></Route>
+        <Route path="/tgr" element={<Tulip/>}></Route>
         
          
       

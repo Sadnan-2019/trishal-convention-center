@@ -64,7 +64,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/neck-pain"
+              to="/orcid"
             >
               Orcid Hall
             </NavLink>
@@ -84,7 +84,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/elbow-pain"
+              to="/tgr"
             >
               Tulip Garden & Resturent
             </NavLink>
