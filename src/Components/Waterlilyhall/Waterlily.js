@@ -1,10 +1,10 @@
 import React from "react";
-import sun from "../../assets/sunfive.jpg"
-import "./Waterlily.css"
+import sun from "../../assets/sunfive.jpg";
+import "./Waterlily.css";
 const Waterlily = () => {
   return (
     <div>
-     <section className="  waterlanding mt-2 blog h-auto      shadow-xl  text-white">
+      <section className="  waterlanding   blog h-auto      shadow-xl  text-white">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <h1
@@ -13,18 +13,18 @@ const Waterlily = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
               style={{ lineHeight: "120%" }}
-              className=" lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
+              className=" lg:text-[32px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              On researching big data and implementing it in multiple ways and
-              producing it effectively & efficiently.
+              Waterlily hall is a fully equipped and modern convention
+              hall that you might be thinking about. We have 3 large hall rooms
+              in total 11,500 sq ft. Where you can decorate like you are
+              dreaming of your program
             </h1>
-
-            
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-            <img
+            {/* <img
               data-aos="fade-up"
               data-aos-offset="300"
               data-aos-delay="5000"
@@ -32,7 +32,7 @@ const Waterlily = () => {
               src={sun}
               alt=""
               className="rounded-lg  "
-            />
+            /> */}
           </div>
         </div>
 
