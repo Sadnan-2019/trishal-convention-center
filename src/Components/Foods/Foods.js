@@ -35,8 +35,8 @@ const Foods = () => {
         <p
           className={
             menuTab === "Breakfast"
-              ? "active_menu_tab poppins bg-primary"
-              : "menu_tab poppins"
+              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
+              : "menu_tab poppins "
           }
           onClick={() => handleMenuTabs("Breakfast")}
         >
@@ -45,7 +45,7 @@ const Foods = () => {
         <p
           className={
             menuTab === "Lunch"
-              ? "active_menu_tab poppins bg-primary"
+              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
               : "menu_tab poppins"
           }
           onClick={() => handleMenuTabs("Lunch")}
@@ -55,7 +55,7 @@ const Foods = () => {
         <p
           className={
             menuTab === "Dinner"
-              ? "active_menu_tab poppins bg-primary"
+              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
               : "menu_tab poppins"
           }
           onClick={() => handleMenuTabs("Dinner")}
@@ -65,7 +65,7 @@ const Foods = () => {
       </div>
 
       {/* all foods  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12 bg-red-600">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12  ">
         {foods
           .filter((item) => menuTab === item.type)
           .map((item) =>
