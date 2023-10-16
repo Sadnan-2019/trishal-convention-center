@@ -3,12 +3,12 @@ import pic1 from "../../assets/footerimge.jpg"
 const Footer = () => {
   return (
     <div className="">
-      <footer class="bg-blue-800 lg:grid lg:grid-cols-5  ">
-        <div class="    h-96 lg:col-span-2 lg:h-96">
+      <footer class="bg-blue-800 lg:grid lg:grid-cols-5   ">
+        <div class="     lg:col-span-1 lg:h-96">
           <img
             src={pic1}
             alt=""
-            class="  inset-0 h-96  object-cover"
+            class="  inset-0 lg:h-96 object-cover"
           />
         </div>
 

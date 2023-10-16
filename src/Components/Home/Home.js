@@ -7,6 +7,7 @@ import Why from '../Why/Why';
 import Video from '../Video/Video';
 import Contact from '../Why/Contact/Contact';
 import Foods from '../Foods/Foods';
+import Offer from '../Offer/Offer';
 // import SliderWithText from '../SliderWithText/SliderWithText';
 
 const Home = () => {
@@ -18,7 +19,8 @@ const Home = () => {
                <Services></Services>
                <Foods></Foods>
                {/* <About></About> */}
-               <Why></Why>
+               {/* <Why></Why> */}
+               <Offer></Offer>
                <Video></Video>
                <Review></Review>
                <Contact></Contact>

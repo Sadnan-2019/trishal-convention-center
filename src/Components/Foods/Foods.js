@@ -29,38 +29,39 @@ const Foods = () => {
 //    
 
   return (
-    <section className="my-12 max-w-screen-xl mx-auto px-6">
+  <div className=" bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94]">
+      <section className="my-12 py-12 max-w-screen-xl mx-auto px-6 ">
       {/* food Menu tab  */}
       <div className="flex items-center justify-center space-x-6">
         <p
           className={
             menuTab === "Breakfast"
-              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins cursor-pointer"
+              ? "active_menu_tab poppins cursor-pointer text-blue-900  bg-red-100 font-bold  rounded-full px-4 py-2   select-none"
+              : "menu_tab poppins cursor-pointer font-bold text-white"
           }
           onClick={() => handleMenuTabs("Breakfast")}
         >
-          Breakfast
+          Wedding
         </p>
         <p
           className={
             menuTab === "Lunch"
-              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins cursor-pointer"
+              ? "active_menu_tab poppins cursor-pointer text-blue-900  bg-red-100 font-bold rounded-full px-4 py-2 select-none"
+              : "menu_tab poppins cursor-pointer font-bold text-white"
           }
           onClick={() => handleMenuTabs("Lunch")}
         >
-          Lunch
+          Birthday
         </p>
         <p
           className={
             menuTab === "Dinner"
-              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins cursor-pointer"
+              ? "active_menu_tab poppins cursor-pointer   bg-red-100 font-bold  rounded-full px-4 py-2 text-blue-900 select-none"
+              : "menu_tab poppins cursor-pointer font-bold text-white"
           }
           onClick={() => handleMenuTabs("Dinner")}
         >
-          Dinner
+          Holud
         </p>
       </div>
 
@@ -77,6 +78,7 @@ const Foods = () => {
           )}
       </div>
     </section>
+  </div>
   );
 };
 
