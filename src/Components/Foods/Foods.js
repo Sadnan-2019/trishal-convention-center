@@ -35,8 +35,8 @@ const Foods = () => {
         <p
           className={
             menuTab === "Breakfast"
-              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins "
+              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
+              : "menu_tab poppins cursor-pointer"
           }
           onClick={() => handleMenuTabs("Breakfast")}
         >
@@ -45,8 +45,8 @@ const Foods = () => {
         <p
           className={
             menuTab === "Lunch"
-              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins"
+              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
+              : "menu_tab poppins cursor-pointer"
           }
           onClick={() => handleMenuTabs("Lunch")}
         >
@@ -55,8 +55,8 @@ const Foods = () => {
         <p
           className={
             menuTab === "Dinner"
-              ? "active_menu_tab poppins bg-primary rounded-full px-4 py-2 text-white select-none"
-              : "menu_tab poppins"
+              ? "active_menu_tab poppins cursor-pointer bg-primary rounded-full px-4 py-2 text-white select-none"
+              : "menu_tab poppins cursor-pointer"
           }
           onClick={() => handleMenuTabs("Dinner")}
         >
