@@ -3,7 +3,7 @@ import "./Orkid.css"
 const Orkid = () => {
   return (
     <div className="orkid-back">
-      <section class="text-gray-600 body-font h-screen flex  bg-svg-constellation-gray-100 relative">
+      <section class="text-gray-600 body-font h-screen flex bg-gray-400 bg-svg-constellation-gray-100 relative">
         <div class="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
           <div class="lg:w-2/3 w-full animate-fade-in-down">
             {/* <!-- Change the heading text --> */}
@@ -18,7 +18,7 @@ const Orkid = () => {
             </h1>
             {/* <!-- Change the paragraph text --> */}
             <p class="mt-8 mb-16 md:leading-relaxed leading-normal text-white tracking-tight text-xl">
-              Program your Responsibility ours.
+              Program your Responsibility.
             </p>
             {/* <!-- Update the button texts and links --> */}
             <a
