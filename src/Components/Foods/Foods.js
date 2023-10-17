@@ -5,9 +5,10 @@ import useFetch from "../hooks/useFetch";
 // import useFetch from '../../hooks/useFetch';
 // import FoodItem from './FoodItem';
 // import Skeleton from './Skeleton';
+import pic from "../../"
 
 const Foods = () => {
-  const [menuTab, setMenuTab] = useState("Breakfast");
+  const [menuTab, setMenuTab] = useState("Wedding");
   const [loading, setLoading] = useState(false);
   const [foods] = useFetch();
 //   console.log(foods)
@@ -35,31 +36,31 @@ const Foods = () => {
       <div className="flex items-center justify-center space-x-6">
         <p
           className={
-            menuTab === "Breakfast"
+            menuTab === "Wedding"
               ? "active_menu_tab poppins cursor-pointer text-blue-900  bg-red-100 font-bold  rounded-full px-4 py-2   select-none"
               : "menu_tab poppins cursor-pointer font-bold text-white"
           }
-          onClick={() => handleMenuTabs("Breakfast")}
+          onClick={() => handleMenuTabs("Wedding")}
         >
           Wedding
         </p>
         <p
           className={
-            menuTab === "Lunch"
+            menuTab === "Birthday"
               ? "active_menu_tab poppins cursor-pointer text-blue-900  bg-red-100 font-bold rounded-full px-4 py-2 select-none"
               : "menu_tab poppins cursor-pointer font-bold text-white"
           }
-          onClick={() => handleMenuTabs("Lunch")}
+          onClick={() => handleMenuTabs("Birthday")}
         >
           Birthday
         </p>
         <p
           className={
-            menuTab === "Dinner"
+            menuTab === "Holud"
               ? "active_menu_tab poppins cursor-pointer   bg-red-100 font-bold  rounded-full px-4 py-2 text-blue-900 select-none"
               : "menu_tab poppins cursor-pointer font-bold text-white"
           }
-          onClick={() => handleMenuTabs("Dinner")}
+          onClick={() => handleMenuTabs("Holud")}
         >
           Holud
         </p>

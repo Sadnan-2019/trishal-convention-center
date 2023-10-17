@@ -12,7 +12,7 @@ const FoodItem = ({item}) => {
     return (
         <div className=" bg-red-100  border border-gray-100 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
             <span className="bg-red-100 border border-red-500 rounded-full text-black text-sm poppins px-4 py-1 inline-block mb-4 ">{type}</span>
-            <img className="w-64 mx-auto transform transition duration-300 hover:scale-105" src={image} alt="" />
+            <img className=" mx-auto transform transition duration-300 hover:scale-105" src={image} alt="" />
             <div className="flex flex-col items-center my-3 space-y-2">
                 <h1 className="text-gray-900 poppins text-lg">{title}</h1>
                 <p className="text-gray-500 poppins text-sm text-center">{description.slice(0,50)}</p>
