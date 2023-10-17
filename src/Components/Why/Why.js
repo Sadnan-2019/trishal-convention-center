@@ -3,7 +3,7 @@ import React from "react";
 import "./Why.css";
 const Why = () => {
   return (
-    <div className=" py-10  ">
+    <div className="   ">
       <div className="why-back p-11">
         <div class="  ">
           <div class="  p-4 min-h-screen">
@@ -13,7 +13,7 @@ const Why = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-6 h-6 text-gray-100"
+                  class="w-12 h-12   text-gray-100"
                 >
                   <path
                     fill-rule="evenodd"
@@ -40,7 +40,7 @@ const Why = () => {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       color="white"
-                      className="h-50 w-50"
+                      className="h-32 w-32"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -69,7 +69,7 @@ const Why = () => {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       color="white"
-                      className="h-50 w-50"
+                      className="h-32 w-32"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -97,7 +97,7 @@ const Why = () => {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       color="white"
-                      className="h-50 w-50"
+                      className="h-32 w-32"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -125,7 +125,7 @@ const Why = () => {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       color="white"
-                      className="h-50 w-50"
+                      className="h-32 w-32"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

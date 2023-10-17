@@ -1,0 +1,18 @@
+.orkid-back{
+    background-image: linear-gradient(
+        to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)
+      ),
+      url("../../assets/wedding6.jpg");
+    /* background-repeat: no-repeat;
+        background-size: cover; */
+    height: auto;
+    width: 100%;
+    /* background-size: contain; */
+    background-size: cover;
+  
+    background-size: 100% 85%;
+  
+    background-repeat: no-repeat;
+  }

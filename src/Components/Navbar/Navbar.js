@@ -64,7 +64,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/orcid"
+              to="/orcid-hall"
             >
               Orcid Hall
             </NavLink>
