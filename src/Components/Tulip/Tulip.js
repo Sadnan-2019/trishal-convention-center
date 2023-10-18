@@ -10,15 +10,15 @@ import food6 from "../../assets/food6.png"
 const Tulip = () => {
   return (
     <div>
-      <section className="  tulip-landing   blog h-auto      shadow-xl  text-white py-[44px]">
+      <section className="  tulip-landing   blog h-screen  mb-10    shadow-xl  text-white py-[44px]">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 justify-center items-center">
 
-        <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+        <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 py-10 ">
             <div class="partners-intro--thumb aos-init aos-animate   ">
               <div class="partners-intro--partners">
                 <div class="partners-intro--partners-item -pos-1">
                   <img
-                    class="lazy loaded"
+                    class="lazy loaded "
                     data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-1.png"
                     alt=""
                     src={food2}
@@ -100,7 +100,7 @@ const Tulip = () => {
               </div>
             </div>
           </div>
-          <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
+          {/* <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <h1
               data-aos="zoom-in"
               data-aos-offset="300"
@@ -113,7 +113,7 @@ const Tulip = () => {
               On researching big data and implementing it in multiple ways and
               producing it effectively & efficiently.
             </h1>
-          </div>
+          </div> */}
 
          
         </div>
