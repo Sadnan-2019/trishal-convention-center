@@ -18,7 +18,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="bg-gradient-to-r from-[#1F5185] via-[#215083] to-[#1A5A94]">
+  <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]">
       <div className=" ">
         <h2
           className="text-transparent   bg-clip-text  text-white    text-3xl text-center    font-bold poppins-b sm:text-4xl  py-7"

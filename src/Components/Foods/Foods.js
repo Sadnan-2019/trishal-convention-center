@@ -30,7 +30,7 @@ const Foods = () => {
 //    
 
   return (
-  <div className=" bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94]">
+  <div className=" bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]">
       <section className="my-12 py-12 max-w-screen-xl mx-auto px-6 ">
       {/* food Menu tab  */}
       <div className="flex items-center justify-center space-x-6">
