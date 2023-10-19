@@ -74,7 +74,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/shoulder-pain"
+              to="/sunflower"
             >
               Sunflower Residence
             </NavLink>
