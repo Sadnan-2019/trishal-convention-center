@@ -1,5 +1,5 @@
 import React from "react";
-import vcall from "../../assets/vcall.png"
+import vcall from "../../assets/sunflower1.jpg"
 const Sunflowerdetails = () => {
   return (
     <div>
@@ -13,7 +13,9 @@ const Sunflowerdetails = () => {
             className="bg-[#3b939f] w-5 h-5 rounded-full absolute z-0 left-36 -top-12 animate-ping"
          
           ></div>
-          <img class="relative z-50 floating" src={vcall} alt="" />
+          <div className="py-12">
+          <img class="relative rounded-lg  z-50 floating" src={vcall} alt="" />
+          </div>
           <div
             className="bg-[#20225f] w-36 h-36 rounded-full absolute z-0 right-16 -bottom-1 animate-pulse"
              
