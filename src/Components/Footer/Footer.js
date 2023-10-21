@@ -3,7 +3,7 @@ import pic1 from "../../assets/footerimge.jpg"
 const Footer = () => {
   return (
     <div className="">
-      <footer class="bg-blue-800 lg:grid lg:grid-cols-5   ">
+      <footer class="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] lg:grid lg:grid-cols-5   ">
         <div class="     lg:col-span-1 lg:h-96">
           <img
             src={pic1}

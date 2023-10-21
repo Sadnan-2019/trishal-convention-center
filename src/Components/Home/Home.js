@@ -14,16 +14,17 @@ const Home = () => {
      return (
           <div>
               <Landing/> 
-              
+              <Why></Why>
                {/* <SliderWithText></SliderWithText> */}
-               <Services></Services>
+            
                <Foods></Foods>
+               <Services></Services>
                {/* <About></About> */}
              
                <Offer></Offer>
                <Video></Video>
                <Review></Review>
-               <Why></Why>
+            
                <Contact></Contact>
               
           </div>

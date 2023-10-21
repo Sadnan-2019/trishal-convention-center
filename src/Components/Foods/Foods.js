@@ -5,7 +5,7 @@ import useFetch from "../hooks/useFetch";
 // import useFetch from '../../hooks/useFetch';
 // import FoodItem from './FoodItem';
 // import Skeleton from './Skeleton';
-import pic from "../../"
+// import pic from "../../"
 
 const Foods = () => {
   const [menuTab, setMenuTab] = useState("Wedding");

@@ -1,10 +1,10 @@
-.orkid-back{
+.sunflower{
     background-image: linear-gradient(
         to left,
         rgba(49, 16, 234, 0.01),
         rgba(7, 27, 29, 0.9)
       ),
-      url("../../assets/wedding6.jpg");
+      url("../../assets/landing-two.jpeg");
     /* background-repeat: no-repeat;
         background-size: cover; */
     height: auto;
