@@ -1,34 +1,27 @@
 import React from "react";
-import vcall from "../../assets/sunflower1.jpg"
+import vcall from "../../assets/sunflower1.jpg";
+import vcall2 from "../../assets/why3.jpg";
+import suntwo from "../../assets/suntwo.jpg"
 const Sunflowerdetails = () => {
   return (
     <div>
-      <div class="md:flex mt-30   md:space-x-10 items-start px-12   ">
+      <div class="lg:flex mt-30   md:space-x-10 items-start px-12   ">
         <div data-aos="fade-down" class="md:w-7/12 relative">
-          <div
-            className="bg-[#ef337b] w-32 h-32 rounded-full absolute z-0 left-4 -top-12 animate-pulse"
-           
-          ></div>
-          <div
-            className="bg-[#3b939f] w-5 h-5 rounded-full absolute z-0 left-36 -top-12 animate-ping"
-         
-          ></div>
+          <div className="bg-[#ef337b] w-32 h-32 rounded-full absolute z-0 left-4 -top-12 animate-pulse"></div>
+          <div className="bg-[#3b939f] w-5 h-5 rounded-full absolute z-0 left-36 -top-12 animate-ping"></div>
           <div className="py-12">
-          <img class="relative rounded-lg  z-50 floating" src={vcall} alt="" />
+            <img
+              class="relative rounded-lg   z-50 floating"
+              src={vcall}
+              alt=""
+            />
           </div>
-          <div
-            className="bg-[#20225f] w-36 h-36 rounded-full absolute z-0 right-16 -bottom-1 animate-pulse"
-             
-          ></div>
-          <div
-            className="bg-[#9f2f2f] w-5 h-5 rounded-full absolute z-0 right-52 bottom-1 animate-ping"
-            
-          ></div>
+          <div className="bg-[#20225f] w-36 h-36 rounded-full absolute z-0 right-16 -bottom-1 animate-pulse"></div>
+          <div className="bg-[#9f2f2f] w-5 h-5 rounded-full absolute z-0 right-52 bottom-1 animate-ping"></div>
         </div>
         <div data-aos="fade-down" class="md:w-5/12 mt-20 md:mt-0 text-gray-500">
           <h1 class="text-2xl font-semibold text-darken lg:pr-40">
-            A <span class="text-yellow-500">user interface</span> designed for
-            the classroom
+            A <span class="text-yellow-900">Double Bed</span> Details
           </h1>
           <div class="flex items-center space-x-5 my-5">
             <div class="flex-shrink bg-white shadow-lg rounded-full p-3 flex items-center justify-center">
@@ -109,6 +102,85 @@ const Sunflowerdetails = () => {
           </div>
         </div>
       </div>
+      <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
+        {/* <!-- Themes: blue, purple and teal --> */}
+        <div data-theme="teal" class="mx-auto max-w-6xl">
+          <h2 class="sr-only">Featured case study</h2>
+          <section class="font-sans text-black">
+            <div class="[ lg:flex lg:items-center ] [ fancy-corners fancy-corners--large fancy-corners--top-left fancy-corners--bottom-right ]">
+              <div class="flex-shrink-0 self-stretch sm:flex-basis-40 md:flex-basis-50 xl:flex-basis-60">
+                <div class="h-full">
+                  <article class="h-full">
+                    <div class="h-full">
+                      <img
+                        class="h-full object-cover rounded"
+                        src={vcall2}
+                        width="733"
+                        height="412"
+                        alt='""'
+                        typeof="foaf:Image"
+                      />
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="p-6 bg-grey">
+                <div class="leading-relaxed">
+                  <h2 class="leading-tight text-4xl font-bold">
+                    CXcon: Experience Transformation
+                  </h2>
+                  <p class="mt-4">
+                    Our second CXcon in October was dedicated to experience
+                    transformation. The free one-day virtual event&nbsp;brought
+                    together 230+ heads of digital, thought leaders, and UX
+                    practitioners to discuss all aspects of experience design..
+                  </p>
+                  <p class="mt-4">
+                    In a jam-packed day filled with keynote sessions, panels,
+                    and virtual networking we explored topics including design
+                    leadership, UX ethics, designing for emotion and innovation
+                    at scale.
+                  </p>
+                  <p>
+                    <a
+                      class="mt-4 button button--secondary"
+                      href="https://inviqa.com/cxcon-experience-transformation"
+                    >
+                      Explore this event
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+      <div class="px-2 py-20 w-full flex justify-center">
+    <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+        <div class="lg:w-1/2">
+            <div class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg "
+                style={{background:`url(${suntwo})`}}>
+            </div>
+        </div>
+        <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
+            <h2 class="text-3xl text-gray-800 font-bold">
+                Promoting Sustainable Lifestyle Choices
+                <span class="text-indigo-600">Choices</span>
+            </h2>
+            <p class="mt-4 text-gray-600">
+                The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
+                sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
+                provide users with personalized tracking, education, and engagement features to empower them to make
+                eco-friendly decisions in various aspects of their lives.
+            </p>
+            <div class="mt-8">
+                <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
   );
 };
