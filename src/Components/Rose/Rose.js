@@ -1,14 +1,9 @@
-import React from "react";
-// import girl from  "../../assets/orkid.png"
-// import calender from  "../../assets/tcc1.jpg"
-// import ux from  "../../assets/ux-class.svg"
-// import congrat from  "../../assets/congrat.svg"
-import "./Orkid.css"
-import Orkidvideo from "./Orkidvideo";
-const Orkid = () => {
-  return (
-    <div className=" ">
-       <div className="orkid-back mb-6 ">
+import React from 'react';
+import "./Rose.css"
+const Rose = () => {
+    return (
+        <div>
+             <div className="rose-back mb-6 ">
               <div class="  text-white">
 		<div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
 			{/* <!--Left Col--> */}
@@ -60,10 +55,8 @@ const Orkid = () => {
 		</div> */}
 	</div>
         </div>
-
-		{/* <Orkidvideo></Orkidvideo> */}
-    </div>
-  );
+        </div>
+    );
 };
 
-export default Orkid;
+export default Rose;

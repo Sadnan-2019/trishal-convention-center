@@ -1,10 +1,10 @@
-.orkid-back{
+.rose-back{
     background-image: linear-gradient(
         to left,
         rgba(27, 58, 35, 0.01),
-        rgba(29, 35, 35, 0.9)
+        rgba(13, 14, 14, 0.9)
       ),
-      url("../../assets/neworkidlandinf.jpg");
+      url("../../assets/roselanding.jpg");
     /* background-repeat: no-repeat;
         background-size: cover; */
     height: auto;
@@ -17,22 +17,7 @@
     background-repeat: no-repeat;
   }
 
-  /*primary color*/
-/* .bg-cream {
-    background-color: #FFF2E1;
-} */
-
-/*font*/
-/* body {
-  font-family: 'Poppins', sans-serif;
-} */
-
-/* .bg-yellow-500 {
-  background-color: #F48C06;
-} */
-/* .text-yellow-500 {
-  color: #F48C06;
-} */
+  
 .floating { 
   animation-name: floating; 
   animation-duration: 3s; 

@@ -104,7 +104,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/knee-pain"
+              to="/rbg"
             >
              Rose Beauty Garden
             </NavLink>
