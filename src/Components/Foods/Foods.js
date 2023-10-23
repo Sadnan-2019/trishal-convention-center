@@ -46,13 +46,13 @@ const Foods = () => {
         </p>
         <p
           className={
-            menuTab === "Birthday"
+            menuTab === "Corporate"
               ? "active_menu_tab poppins cursor-pointer text-blue-900  bg-red-100 font-bold rounded-full px-4 py-2 select-none"
               : "menu_tab poppins cursor-pointer font-bold text-white"
           }
-          onClick={() => handleMenuTabs("Birthday")}
+          onClick={() => handleMenuTabs("Corporate")}
         >
-          Birthday
+          Corporate
         </p>
         <p
           className={

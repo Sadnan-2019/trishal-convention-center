@@ -15,6 +15,7 @@ import FoodItem from './Components/Foods/FoodItem';
 import Orkid from './Components/Orkidhall/Orkid';
 import Sunflower from './Components/Sunflower/Sunflower';
 import Rose from './Components/Rose/Rose';
+import Facilities from './Components/Facilities/Facilities';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         {/* <Route path="/orcid-hall" element={<Orkid />}></Route> */}
         {/* <Route   path="/foods/:title" element={<FoodItem/>}> </Route> */}
         <Route path="/tgr" element={<Tulip/>}></Route>
+        <Route path="/facilities" element={<Facilities/>}></Route>
         
          
       
