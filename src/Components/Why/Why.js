@@ -135,7 +135,7 @@ const Why = () => {
                     </svg>
                     <div class="space-y-2">
                       <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">
-                        Celebrate your Launch
+                        Celebrate your program
                       </h5>
                       <p class="text-gray-300">
                         We love Celebrations. We will celebrate your launch on

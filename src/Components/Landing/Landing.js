@@ -92,8 +92,6 @@ const Landing = () => {
                   Trishal Convention Center (TCC) is a business organization
                 </h2>
 
-               
-
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
@@ -104,8 +102,6 @@ const Landing = () => {
                     MORE EXPLORE
                     <BsArrowRight className="text-lg   lg:ml-2" />
                   </a>
-                 
-
                 </div>
               </div>
 
@@ -175,17 +171,13 @@ const Landing = () => {
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                      currentSlide === 1 ? "animated" : ""
+                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                      currentSlideTwo === 1 ? "animatedpic" : ""
                     }`}
                   >
-                    <span className="text-sm font-medium">
-                      {" "}
-                      GET STARTED WITH US
-                    </span>
-                    <BsArrowRight className="text-lg hidden lg:ml-2" />
+                    MORE EXPLORE
+                    <BsArrowRight className="text-lg   lg:ml-2" />
                   </a>
-                  
                 </div>
               </div>
 
@@ -226,7 +218,6 @@ const Landing = () => {
           </section>
         </div>
 
-
         <div className=" ">
           <section className="landingthree  blog h-auto       text-white">
             <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
@@ -263,17 +254,13 @@ const Landing = () => {
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                      currentSlide === 2 ? "animated" : ""
+                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                      currentSlideTwo === 2 ? "animatedpic" : ""
                     }`}
                   >
-                    <span className="text-sm font-medium">
-                      {" "}
-                      GET STARTED WITH US
-                    </span>
-                    <BsArrowRight className="text-lg hidden lg:ml-2" />
+                    MORE EXPLORE
+                    <BsArrowRight className="text-lg   lg:ml-2" />
                   </a>
-                  
                 </div>
               </div>
 

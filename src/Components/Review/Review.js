@@ -67,24 +67,7 @@ const Review = () => {
                 </div>
               </div>
             </div>
-            <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
-              <button
-                type="button"
-                class="text-white py-3 px-4 rounded-lg bg-blue-500"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Primary action
-                </p>
-              </button>
-              <button
-                type="button"
-                class="py-3 px-4 bg-blue-500 rounded-lg ml-3 text-white"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Secondary action
-                </p>
-              </button>
-            </div>
+          
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -112,24 +95,7 @@ const Review = () => {
                 </div>
               </div>
             </div>
-            <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
-              <button
-                type="button"
-                class="text-white py-3 px-4 rounded-lg bg-blue-500"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Primary action
-                </p>
-              </button>
-              <button
-                type="button"
-                class="py-3 px-4 bg-blue-500 rounded-lg ml-3 text-white"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Secondary action
-                </p>
-              </button>
-            </div>
+            
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -157,24 +123,7 @@ const Review = () => {
                 </div>
               </div>
             </div>
-            <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
-              <button
-                type="button"
-                class="text-white py-3 px-4 rounded-lg bg-blue-500"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Primary action
-                </p>
-              </button>
-              <button
-                type="button"
-                class="py-3 px-4 bg-blue-500 rounded-lg ml-3 text-white"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Secondary action
-                </p>
-              </button>
-            </div>
+            
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -202,24 +151,7 @@ const Review = () => {
                 </div>
               </div>
             </div>
-            <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
-              <button
-                type="button"
-                class="text-white py-3 px-4 rounded-lg bg-blue-500"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Primary action
-                </p>
-              </button>
-              <button
-                type="button"
-                class="py-3 px-4 bg-blue-500 rounded-lg ml-3 text-white"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Secondary action
-                </p>
-              </button>
-            </div>
+            
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -247,7 +179,7 @@ const Review = () => {
                 </div>
               </div>
             </div>
-            <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
+            {/* <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
               <button
                 type="button"
                 class="text-white py-3 px-4 rounded-lg bg-blue-500"
@@ -264,7 +196,7 @@ const Review = () => {
                   Secondary action
                 </p>
               </button>
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
         </div>
