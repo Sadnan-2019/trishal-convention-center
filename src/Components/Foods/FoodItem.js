@@ -15,7 +15,7 @@ const FoodItem = ({item}) => {
             <img className=" mx-auto transform transition duration-300 hover:scale-105" src={image} alt="" />
             <div className="flex flex-col items-center my-3 space-y-2">
                 <h1 className="text-white poppins text-lg">{title}</h1>
-                <p className="text-white poppins text-sm text-center">{description.slice(0,50)}</p>
+                {/* <p className="text-white poppins text-sm text-center">{description.slice(0,50)}</p> */}
                 {/* <h2 className="text-white poppins text-2xl font-bold">${price}</h2> */}
                 {/* <span className="bg-yellow-400 border border-red-900 p rounded-full text-black text-sm poppins px-8 py-1 inline-block mb-4 ">{type}</span> */}
 

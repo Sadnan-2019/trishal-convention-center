@@ -5,11 +5,11 @@ const Footer = () => {
     <div className="">
       <footer class="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] lg:grid lg:grid-cols-5   ">
         <div class="     lg:col-span-1 lg:h-96">
-          <img
+          {/* <img
             src={pic1}
             alt=""
             class="  inset-0 lg:h-96 object-cover"
-          />
+          /> */}
         </div>
 
         <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
