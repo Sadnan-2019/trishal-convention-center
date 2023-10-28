@@ -6,7 +6,7 @@ const Waterlily = () => {
   return (
     <div>
       <WaterlilyLanding></WaterlilyLanding>
-      <WaterlilyDetails></WaterlilyDetails>
+      {/* <WaterlilyDetails></WaterlilyDetails> */}
     </div>
   );
 };

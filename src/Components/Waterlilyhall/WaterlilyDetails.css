@@ -3,5 +3,35 @@
     backdrop-filter: saturate(200%) blur(25px);
 
 }
+.waterlanding{
+    background-image: linear-gradient(
+        to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(8, 8, 8, 0.9)
+      ),
+      url("../../assets/landingthree.jpeg");
+    /* background-repeat: no-repeat;
+        background-size: cover; */
+    height: auto;
+    width: 100%;
+    /* background-size: contain; */
+    background-size: cover;
+  
+    background-size: 100% 85%;
+  
+    background-repeat: no-repeat;
+
+}
+/* tailwind.css */
+.custom-curve {
+    position: relative;
+  }
+  
+  .custom-curve svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
 
  
