@@ -5,7 +5,7 @@
         rgba(49, 16, 234, 0.01),
         rgba(0, 9, 10, 0.9)
       ),
-      url("../../assets/newtgr.png");
+      url("../../assets/tuliplandingnew.jpg");
      
     height: auto;
     width: 100%;
@@ -40,9 +40,9 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 130px;
-  height: 130px;
-  background: #fff;
+  width: 250px;
+  height: 250px;
+  /* background: #fff; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: flex;
@@ -52,7 +52,7 @@
 
 .partners-intro--logo img {
   display: block;
-  width: 112px;
+  width: 250px;
 }
 .partners-intro--partners-item {
   position: absolute;

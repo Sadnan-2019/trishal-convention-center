@@ -16,6 +16,7 @@ import Orkid from './Components/Orkidhall/Orkid';
 import Sunflower from './Components/Sunflower/Sunflower';
 import Rose from './Components/Rose/Rose';
 import Facilities from './Components/Facilities/Facilities';
+import About from './Components/About/About';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         {/* <Route   path="/foods/:title" element={<FoodItem/>}> </Route> */}
         <Route path="/tgr" element={<Tulip/>}></Route>
         <Route path="/facilities" element={<Facilities/>}></Route>
+        <Route path="/about-us" element={<About/>}></Route>
         
          
       

@@ -24,7 +24,7 @@ const Home = () => {
                <Offer></Offer>
                <Video></Video>
                <Review></Review>
-            
+         
                <Contact></Contact>
               
           </div>
