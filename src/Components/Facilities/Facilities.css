@@ -52,9 +52,9 @@
   .book:hover .cover {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    -webkit-transform: rotatey(-800deg);
-    -ms-transform: rotatey(-800deg);
-    transform: rotatey(-200deg);
+    -webkit-transform: rotatey(-100deg);
+    -ms-transform: rotatey(-100deg);
+    transform: rotatey(-150deg);
   }
   
   p {

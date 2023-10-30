@@ -1,9 +1,9 @@
 import React from 'react';
-
+import about from   "../../assets/about1.png"
 const About = () => {
   return (
     <div>
-      <section class="overflow-hidden bg-white py-8 sm:py-16">
+      <section class="overflow-hidden   py-8 sm:py-16 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]  ">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pr-8 lg:pt-4">
@@ -68,7 +68,8 @@ const About = () => {
             <span aria-hidden="true">→</span>
           </a>
         </div>
-      </div><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442"/>
+      </div>
+      <img src={about} alt="Product screenshot" class="w-[48rem] max-w-none   ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" />
     </div>
   </div>
 </section>
