@@ -1,0 +1,45 @@
+.camellia-back{
+    background-image: linear-gradient(
+        to left,
+        rgba(5, 7, 6, 0.01),
+        rgba(8, 12, 12, 0.9)
+      ),
+      url("../../assets/landingcamelliya.jpg");
+    /* background-repeat: no-repeat;
+        background-size: cover; */
+    height: auto;
+    width: 100%;
+    background-size: contain;
+    background-size: cover;
+  
+    background-size: 100% 100%;
+  
+    background-repeat: no-repeat;
+  }
+
+ 
+.floating { 
+  animation-name: floating; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+} 
+@keyframes floating { 
+  0% { transform: translate(0, 0px); } 
+  50% { transform: translate(0, 8px); } 
+  100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+  animation-name: floating; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+} 
+@keyframes floating-4 { 
+  0% { transform: translate(0, 0px); } 
+  50% { transform: translate(0, 8px); } 
+  100% { transform: translate(0, -0px); }  
+}
+.text-darken {
+  color: #2F327D;
+}

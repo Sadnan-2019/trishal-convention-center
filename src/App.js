@@ -17,6 +17,7 @@ import Sunflower from './Components/Sunflower/Sunflower';
 import Rose from './Components/Rose/Rose';
 import Facilities from './Components/Facilities/Facilities';
 import About from './Components/About/About';
+import Camellia from './Components/Camellia/Camellia';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/water-lily-hall" element={<Waterlily />}></Route>
         <Route path="/orcid-hall" element={<Orkid />}></Route>
         <Route path="/sunflower" element={<Sunflower />}></Route>
+        <Route path="/camellia" element={<Camellia />}></Route>
         <Route path="/rbg" element={<Rose />}></Route>
         {/* <Route path="/orcid-hall" element={<Orkid />}></Route> */}
         {/* <Route   path="/foods/:title" element={<FoodItem/>}> </Route> */}

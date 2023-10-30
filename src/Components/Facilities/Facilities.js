@@ -5,6 +5,7 @@ import Vehicle3 from "../../assets/Vehicle5.png";
 import calender from "../../assets/facebook.png";
 import ux from "../../assets/twitter.png";
 import congrat from "../../assets/instagram.png";
+import "./Facilities.css";
 
 const Facilities = () => {
   return (
@@ -43,12 +44,16 @@ const Facilities = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p className="text-3xl">
-                  {" "}
-                  We are living in a digital era. So social media is very
-                  important part of our life. There are other necessity for
-                  internet too.
-                </p>
+                <div class="book">
+                  <p>
+                    We are living in a digital era. So social media is very
+                    important part of our life. There are other necessity for
+                    internet too.
+                  </p>
+                  <div class="cover">
+                    <p>Hover Me</p>
+                  </div>
+                </div>
               </li>
               <li class="my-1 flex w-1/2 items-center">
                 <svg
@@ -271,92 +276,6 @@ const Facilities = () => {
 
             <div
               data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-once="true"
-              class="absolute top-20 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating"
-            >
-              {/* <svg
-                class="h-16 sm:h-24"
-                viewBox="0 0 149 149"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_d)">
-                  <rect
-                    x="40"
-                    y="32"
-                    width="69"
-                    height="69"
-                    rx="14"
-                    fill="#F3627C"
-                  />
-                </g>
-                <rect
-                  x="51.35"
-                  y="44.075"
-                  width="47.3"
-                  height="44.85"
-                  rx="8"
-                  fill="white"
-                />
-                <path
-                  d="M74.5 54.425V78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M65.875 58.7375L65.875 78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M83.125 63.9125V78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <defs>
-                  <filter
-                    id="filter0_d"
-                    x="0"
-                    y="0"
-                    width="149"
-                    height="149"
-                    filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feColorMatrix
-                      in="SourceAlpha"
-                      type="matrix"
-                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    />
-                    <feOffset dy="8" />
-                    <feGaussianBlur stdDeviation="20" />
-                    <feColorMatrix
-                      type="matrix"
-                      values="0 0 0 0 0.825 0 0 0 0 0.300438 0 0 0 0 0.396718 0 0 0 0.26 0"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in2="BackgroundImageFix"
-                      result="effect1_dropShadow"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="effect1_dropShadow"
-                      result="shape"
-                    />
-                  </filter>
-                </defs>
-              </svg> */}
-            </div>
-
-            <div
-              data-aos="fade-up"
               data-aos-delay="500"
               data-aos-once="true"
               class="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20   lg:-lef-1 floating"
@@ -382,6 +301,7 @@ const Facilities = () => {
             </div>
           </div>
         </div>
+
         <div class="py-6">
           <div class="mx-auto flex h-[500px] max-w-[90rem] flex-col justify-center rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
             <div class="pointer-events-none absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-white dark:bg-black"></div>

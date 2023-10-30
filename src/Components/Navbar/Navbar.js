@@ -94,7 +94,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/knee-pain"
+              to="/camellia "
             >
               Camellia Conference Room
             </NavLink>

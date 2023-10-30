@@ -6,12 +6,13 @@ import food3 from "../../assets/food4.png"
 import food4 from "../../assets/food4.png"
 import food5 from "../../assets/food5.png"
 import food6 from "../../assets/food6.png"
+import "./TulipDetails.css"
 const TulipDetails = () => {
     return (
-        <div className='mt-10 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] '>
+        <div className='   '>
             <div className=' '>
-            <div class="       ">
-            <div class="partners-intro--thumb aos-init aos-animate   ">
+            <div class="   ">
+            <div class="partners-intro--thumb aos-init aos-animate   sm:grid-cols-1 lg:grid-cols-1 w-full bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]  ">
               <div class="partners-intro--partners">
                 <div class="partners-intro--partners-item -pos-1">
                   <img
