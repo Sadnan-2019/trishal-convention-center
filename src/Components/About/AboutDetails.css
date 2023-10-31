@@ -1,0 +1,11 @@
+/* .team {
+  border-radius: 15px;
+  background: #f8f1f1;
+  box-shadow: inset 8px 8px 0px #636060, inset -8px -8px 0px #ffffff;
+} */
+
+.team {
+  border-radius: 10%;
+  /* background: #e0e0e0; */
+  box-shadow: inset 5px 5px 10px #150b41, inset -10px -10px 15px #150b41;
+}
