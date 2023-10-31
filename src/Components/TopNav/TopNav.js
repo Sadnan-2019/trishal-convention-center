@@ -9,7 +9,7 @@ import email from "../../assets/email.gif";
 const TopNav = () => {
   return (
     <div>
-      <div className="bg-[#215083] text-white ">
+      <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white ">
         <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
           {/* <img  src={logo} className="w-24" alt="" /> */}
           <div className="grid grid-cols-2 justify-center  p-1  items-center gap-2  ">
