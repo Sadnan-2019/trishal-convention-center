@@ -1,11 +1,11 @@
 import React from 'react';
-
+import "./TulipFood.css"
 const TulipFood = () => {
     return (
-        <div>
-            <div class="grid grid-cols-4 gap-8 p-8 md:p-16 bg-gray-800">
+        <div className='bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] '>
+            <div class="grid grid-cols-4 gap-8 p-8 md:p-16 ">
 
-<div
+{/* <div
     class="col-span-4 sm:col-span-2 lg:col-span-1 relative px-5 pt-10 pb-2 flex flex-col justify-start items-center border-2 border-gray-300 rounded-xl text-gray-300">
     <span class="absolute -top-6 p-3 border-2 border-gray-300 rounded-full bg-gray-800">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -65,7 +65,66 @@ const TulipFood = () => {
     <h2 class="my-1 gradient-red text-base uppercase tracking-wide">Javascript</h2>
     <p class="py-2 text-center text-sm">Complex components may need some cooking and the JavaScript needed to make
         them awesome is included. So don't worry, you'll get it all !</p>
-</div>
+</div> */}
+
+<section>
+    <div class='container even'>
+      <div class='icon'>
+        <i class="fa-solid fa-desktop"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+      </div>
+    </div>
+    <div class='container odd'>
+      <div class='icon'>
+        <i class="fa-solid fa-calendar-days"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+      </div>
+    </div>
+    <div class='container even'>
+      <div class='icon'>
+        <i class="fa-solid fa-book"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.</div>
+    </div>
+    <div class='container odd'>
+      <div class='icon'>
+        <i class="fa-solid fa-business-time"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.</div>
+    </div>
+    <div class='container even'>
+      <div class='icon'>
+        <i class="fa-solid fa-layer-group"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.</div>
+    </div>
+    <div class='container odd'>
+      <div class='icon'>
+        <i class="fa-solid fa-landmark"></i>
+      </div>
+      <div class='text'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.</div>
+    </div>
+  </section>
 
 </div>
         </div>

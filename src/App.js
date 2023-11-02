@@ -18,6 +18,7 @@ import Rose from './Components/Rose/Rose';
 import Facilities from './Components/Facilities/Facilities';
 import About from './Components/About/About';
 import Camellia from './Components/Camellia/Camellia';
+import HomeContact from './Components/Why/Contact/HomeContact';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/tgr" element={<Tulip/>}></Route>
         <Route path="/facilities" element={<Facilities/>}></Route>
         <Route path="/about-us" element={<About/>}></Route>
+        <Route path="/contact" element={<HomeContact/>}></Route>
         
          
       

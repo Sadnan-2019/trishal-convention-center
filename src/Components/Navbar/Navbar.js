@@ -29,15 +29,7 @@ const Navbar = () => {
           HOME
         </NavLink>
       </li>
-
-      {/* <li className="nav-item p-2 list-none	">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/services"
-        >
-          SERVICES
-        </NavLink>
-      </li> */}
+ 
 
       <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
         <NavLink className="mx-1 text-white-600  font-bold   p-0 lg:text-blue-800">
@@ -94,7 +86,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
-              to="/camellia "
+              to="/camellia"
             >
               Camellia Conference Room
             </NavLink>
