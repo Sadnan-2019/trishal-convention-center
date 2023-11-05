@@ -1,16 +1,16 @@
-section {
+/* section {
     width: 600px;
     margin:0 auto;
-  }
+  } */
 
-  .container {
+  .tulip-food {
     display: flex;
     justify-content: space-between;
     position: relative;
     height: 230px
   }
 
-  .container:nth-child(even) {
+  .tulip-food:nth-child(even) {
     flex-direction: row-reverse;
   }
 

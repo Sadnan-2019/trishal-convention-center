@@ -41,7 +41,7 @@ function App() {
         <Route path="/tgr" element={<Tulip/>}></Route>
         <Route path="/facilities" element={<Facilities/>}></Route>
         <Route path="/about-us" element={<About/>}></Route>
-        <Route path="/contact" element={<HomeContact/>}></Route>
+        {/* <Route path="/contact" element={<HomeContact/>}></Route> */}
         
          
       
