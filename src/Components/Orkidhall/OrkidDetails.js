@@ -1,15 +1,16 @@
-import React from "react";
-import "./WaterlilyDetails.css";
-import waterone from "../../assets/wedding1.jpg";
-import watertwo from "../../assets/wedding2.jpg";
-import waterthree from "../../assets/wedding3.jpg";
-import waterfour from "../../assets/wedding4.jpg";
-import waterfive from "../../assets/wedding5.jpg";
-import watersix from "../../assets/wedding6.jpg";
-import waterseven from "../../assets/why6.jpg";
-const WaterlilyDetails = () => {
-  return (
-    <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]">
+import React from 'react';
+import waterone from "../../assets/orkidone.jpg";
+import watertwo from "../../assets/orkidtwo.jpg";
+import waterthree from "../../assets/orkidthree.jpg";
+import waterfour from "../../assets/orkidfour.jpg";
+import waterfive from "../../assets/orkidhall.jpg";
+import watersix from "../../assets/wedding11.jpg";
+import waterseven from "../../assets/corporate10.jpg";
+import "./OrkidDetails.css"
+const OrkidDetails = () => {
+    return (
+        <div>
+          <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] ">
       <div class="   ">
         <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-2   items-center justify-items-center py-10">
           <div class="text-white new-details hover:bg-gray-900 hover:text-white transition duration-300 max-w-lg rounded overflow-hidden shadow-lg">
@@ -166,7 +167,8 @@ const WaterlilyDetails = () => {
         </div>
       </div>
     </div>
-  );
+        </div>
+    );
 };
 
-export default WaterlilyDetails;
+export default OrkidDetails;

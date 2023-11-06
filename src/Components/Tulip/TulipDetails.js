@@ -1,11 +1,14 @@
 import React from 'react';
-import food from "../../assets/tgr3.png"
+import food from "../../assets/food11.png"
 import food1 from "../../assets/food3.png"
 import food2 from "../../assets/tgrone.png"
 import food3 from "../../assets/food4.png"
-import food4 from "../../assets/food4.png"
+// import food4 from "../../assets/food4.png"
 import food5 from "../../assets/food5.png"
 import food6 from "../../assets/food6.png"
+import food7 from "../../assets/food9.png"
+import food8 from "../../assets/food10.png"
+import food9 from "../../assets/food12.png"
 import "./TulipDetails.css"
 const TulipDetails = () => {
     return (
@@ -37,7 +40,7 @@ const TulipDetails = () => {
                     class="lazy loaded"
                     data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-3.png"
                     alt=""
-                    src={food}
+                    src={food9}
                     data-was-processed="true"
                   />
                 </div>
@@ -73,7 +76,7 @@ const TulipDetails = () => {
                     class="lazy loaded"
                     data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-7.png"
                     alt=""
-                    src={food}
+                    src={food7}
                     data-was-processed="true"
                   />
                 </div>
@@ -82,7 +85,7 @@ const TulipDetails = () => {
                     class="lazy loaded"
                     data-src="https://fieldedge.com/wp-content/themes/fieldedge/assets/dist/images/icons/partner-icon-8.png"
                     alt=""
-                    src={food}
+                    src={food8}
                     data-was-processed="true"
                   />
                 </div>

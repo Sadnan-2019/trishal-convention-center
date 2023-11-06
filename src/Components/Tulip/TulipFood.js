@@ -1,5 +1,4 @@
 import React from "react";
-import "./TulipFood.css";
 import food from "../../assets/tgr3.png";
 import food1 from "../../assets/food3.png";
 import food2 from "../../assets/tgrone.png";
@@ -7,6 +6,7 @@ import food3 from "../../assets/food4.png";
 import food4 from "../../assets/food4.png";
 import food5 from "../../assets/food5.png";
 import food6 from "../../assets/food6.png";
+import "./TulipFood.css";
 const TulipFood = () => {
   return (
     <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] ">

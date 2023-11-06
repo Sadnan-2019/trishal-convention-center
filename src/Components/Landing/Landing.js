@@ -4,29 +4,13 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
 import { BsArrowRight } from "react-icons/bs";
-import camera from "../../assets/why6.jpg";
-import { FaPhoneVolume } from "react-icons/fa";
+// import camera from "../../assets/why6.jpg";
+// import { FaPhoneVolume } from "react-icons/fa";
 // import { AnimatePresence, motion } from "framer-motion";
 
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
-  // const sentences = [
-  //   "Artificial intelligence (AI) is the intelligence of machines",
-  //   "or software, as opposed to the intelligence of human beings or animals",
-
-  // ];
-
-  // const [currentIndex, setCurrentIndex] = useState(0);
-  // const [currentIndexTwo, setCurrentIndexTwo] = useState(0);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % sentences.length);
-  //   }, 5000); // Change the duration as needed
-
-  //   return () => clearInterval(interval);
-  // }, [sentences.length]);
 
   var settings = {
     dots: true,
@@ -121,15 +105,11 @@ const Landing = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <svg
-                className=""
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1440 320"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
                   fill="white"
-                  fill-opacity="50"
-                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                  fill-opacity="1"
+                  d="M0,288L120,266.7C240,245,480,203,720,208C960,213,1200,267,1320,293.3L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                 ></path>
               </svg>
             </div>
@@ -154,20 +134,6 @@ const Landing = () => {
                   style={{ lineHeight: "120%", color: "white" }}
                 ></h1>
 
-                {/* <div className="flex items-center mt-2 font-bold">
-                  <FaPhoneVolume
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <span
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  >
-                    {" "}
-                    Call Now: 01643-390832
-                  </span>
-                </div> */}
-
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
@@ -180,22 +146,6 @@ const Landing = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-                <AnimatePresence mode="wait">
-                  <motion.h2
-                    key={currentIndex}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -50 }}
-                    transition={{ duration: 1 }}
-                    style={{ lineHeight: "120%" }}
-                    className="animated-text lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-                  >
-                    {sentences[currentIndex]}
-                  </motion.h2>
-                </AnimatePresence>
-              </div> */}
             </div>
 
             <div
@@ -237,20 +187,6 @@ const Landing = () => {
                   style={{ lineHeight: "120%", color: "white" }}
                 ></h1>
 
-                {/* <div className="flex items-center mt-2 font-bold">
-                  <FaPhoneVolume
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <span
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  >
-                    {" "}
-                    Call Now: 01643-390832
-                  </span>
-                </div> */}
-
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
@@ -263,22 +199,6 @@ const Landing = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-                <AnimatePresence mode="wait">
-                  <motion.h2
-                    key={currentIndex}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -50 }}
-                    transition={{ duration: 1 }}
-                    style={{ lineHeight: "120%" }}
-                    className="animated-text lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-                  >
-                    {sentences[currentIndex]}
-                  </motion.h2>
-                </AnimatePresence>
-              </div> */}
             </div>
 
             <div

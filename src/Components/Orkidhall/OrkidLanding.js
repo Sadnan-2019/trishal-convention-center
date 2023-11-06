@@ -1,9 +1,10 @@
 import React from 'react';
-import "./Tulip.css";
-const TulipLanding = () => {
+import "./Orkid.css"
+const OrkidLanding = () => {
     return (
         <div>
-                 <section class="mb-40     ">
+
+<section class="mb-40     ">
 
 <div className='grid grid-cols-2 '>
 <span class="[&>svg]:absolute [&>svg]:-z-10 [&>svg]:m-auto [&>svg]:block [&>svg]:w-full">
@@ -55,29 +56,29 @@ const TulipLanding = () => {
 
 {/* <!-- Jumbotron --> */}
 <div className=" ">
-    <div className="tulip-landing  ">
+    <div className="orkid-back  ">
            <div class="  text-white">
- <div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
-   {/* <!--Left Col--> */}
-   <div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
-     <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-white">
-       <span class="text-white">Studying</span> Online is now much easier
-     </h1>
-     <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Skilline is an interesting platform that will teach you in more an interactive way</p>
-     <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5 py-10">
-       <button class="lg:mx-0 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-         Booking Now
-       </button>
-        
+     <div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
+         {/* <!--Left Col--> */}
+         <div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
+             <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-white">
+                 <span class="text-white">Studying</span> Online is now much easier
+             </h1>
+             <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Skilline is an interesting platform that will teach you in more an interactive way</p>
+             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5 py-10">
+                 <button class="lg:mx-0 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                     Booking Now
+                 </button>
+                  
+             </div>
+         </div>
+      
      </div>
-   </div>
   
  </div>
-
-</div>
      </div>
 
-
+  
  </div>
 
 
@@ -87,4 +88,4 @@ const TulipLanding = () => {
     );
 };
 
-export default TulipLanding;
+export default OrkidLanding;
