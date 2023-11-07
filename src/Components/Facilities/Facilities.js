@@ -5,6 +5,8 @@ import Vehicle3 from "../../assets/Vehicle5.png";
 import calender from "../../assets/facebook.png";
 import ux from "../../assets/twitter.png";
 import congrat from "../../assets/instagram.png";
+import parking from "../../assets/sunfour.jpg";
+
 import "./Facilities.css";
 
 const Facilities = () => {
@@ -209,8 +211,8 @@ const Facilities = () => {
           </div>
         </div>
 
-        <div class="py-6">
-          <div class="mx-auto flex h-[500px] max-w-[90rem] flex-col justify-center rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
+        <div class="py-6 parking">
+          <div class="mx-auto  flex   max-w-[90rem] flex-col justify-center rounded-2xl    px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
             <div class="pointer-events-none absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-white dark:bg-black"></div>
             <span class="mb-8 text-center text-4xl font-bold">
               100+ Vehicle Parking

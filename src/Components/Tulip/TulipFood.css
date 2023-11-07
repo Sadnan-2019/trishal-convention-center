@@ -7,7 +7,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 230px
+    height: 230px;
+    /* flex-direction: column; */
   }
 
   .tulip-food:nth-child(even) {
@@ -30,7 +31,7 @@
     width: 355px;
     border-bottom: solid 3px rgb(98, 15, 152);
     position: absolute;
-    top: 210px;
+    top: 240px;
     left: 115px;
     transform: rotate(30deg);
   }

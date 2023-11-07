@@ -9,10 +9,15 @@ import sunthree from "../../assets/sunthree.jpg"
 import sunfour from "../../assets/sunfour.jpg"
 import orikid from "../../assets/orkidhall.jpg"
 import orikidone from "../../assets/orkidfour.jpg"
+import orikidnew from "../../assets/wedding3.jpg"
+import orikidnewone from "../../assets/wedding6.jpg"
+import orikidnewtwo from "../../assets/wedding9.jpg"
 // import orikidtwo from "../../assets/orkidtwo.jpg"
 import orikidthree from "../../assets/orkidthree.jpg"
 import orikidfour from "../../assets/orkidone.jpg"
 import waterlily from "../../assets/Waterlily.jpeg"
+import orkidhome from "../../assets/orkidhome.jpeg"
+import rbghome from "../../assets/rbghome.jpeg"
 
 import "./Services.css";
 
@@ -122,14 +127,14 @@ const Services = () => {
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={waterlily} />
+                <img src={orkidhome} alt="" />
               </div>
               <div class="absolute rounded-lg shadow-xl my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
                   <div class="  px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-150">
                     <div className="flex gap-5">
-                      <img className="w-20 rounded-full" alt="" src={orikidthree} />
-                      <img className="w-20 rounded-full" alt="" src={orikidfour} />
+                      <img className="w-20 rounded-full" alt="" src={orikidnewone} />
+                      <img className="w-20 rounded-full" alt="" src={orikidnewtwo} />
                     </div>
 
 
@@ -142,7 +147,7 @@ const Services = () => {
                    </div>
                   </div>
                   <div className="w-full h-full">
-                    <img className="" alt="" src={orikidone} />
+                    <img className="" alt="" src={orikidnew} />
                   </div>
                   
                 </div>
@@ -154,7 +159,7 @@ const Services = () => {
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={waterlily} />
+                <img src={rbghome} />
               </div>
               <div class="absolute rounded-lg shadow-xl my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
