@@ -8,7 +8,7 @@ import food3 from "../../assets/food3.png";
 const TulipMenu = () => {
     return (
         <div>
-         <div className=' bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]'>
+         <div className=' bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] py-10'>
 
 
          <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">

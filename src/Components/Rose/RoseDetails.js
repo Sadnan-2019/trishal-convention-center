@@ -13,7 +13,7 @@ const RoseDetails = () => {
       <div class="   ">
         <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-2   items-center justify-items-center py-10">
           <div class="text-white new-details hover:bg-gray-900 hover:text-white transition duration-300 max-w-lg rounded overflow-hidden shadow-lg">
-            <div class="py-4 px-8 max-w-lg ">
+            <div class="py-4 px-8 ">
               {/* <img src="https://tailwindcss.com/img/jonathan.jpg" class="rounded-full h-12 w-12 mb-4"/> */}
               <a href="#">
                 <h4 class="text-lg mb-3 font-semibold">
