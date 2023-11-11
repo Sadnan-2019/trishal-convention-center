@@ -17,7 +17,8 @@ import orikidthree from "../../assets/orkidthree.jpg"
 import orikidfour from "../../assets/orkidone.jpg"
 import waterlily from "../../assets/Waterlily.jpeg"
 import orkidhome from "../../assets/orkidhome.jpeg"
-import rbghome from "../../assets/rbghome.jpeg"
+import tulip from "../../assets/rbghome.jpeg"
+import rbg from "../../assets/rbgnew.jpeg"
 
 import "./Services.css";
 
@@ -41,7 +42,7 @@ const Services = () => {
           <div class="w-[300px] shadow-xl sha h-[420px] bg-transparent cursor-pointer group perspective">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={tgr} />
+                <img src={tulip} />
               </div>
               <div class="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
@@ -159,7 +160,7 @@ const Services = () => {
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={rbghome} />
+                <img src={tulip} />
               </div>
               <div class="absolute rounded-lg shadow-xl my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
@@ -191,7 +192,7 @@ const Services = () => {
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={waterlily} />
+                <img src={rbg} />
               </div>
               <div class="absolute rounded-lg shadow-xl my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
@@ -211,7 +212,7 @@ const Services = () => {
                    </div>
                   </div>
                   <div className="w-full h-full">
-                    <img className="" alt="" src={orikidone} />
+                    <img className="" alt="" src={rbg} />
                   </div>
                   
                 </div>
