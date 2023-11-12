@@ -20,6 +20,7 @@ import About from './Components/About/About';
 import Camellia from './Components/Camellia/Camellia';
 import HomeContact from './Components/Why/Contact/HomeContact';
 import Offer from './Components/Offer/Offer';
+import NewOffer from './Components/Offer/NewOffer';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
         <Route path="/tgr" element={<Tulip/>}></Route>
         <Route path="/facilities" element={<Facilities/>}></Route>
         <Route path="/about-us" element={<About/>}></Route>
-        <Route path="/offer" element={<Offer/>}></Route>
+        <Route path="/offer" element={<NewOffer/>}></Route>
         
          
       

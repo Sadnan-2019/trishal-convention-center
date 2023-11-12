@@ -357,7 +357,7 @@ const Facilities = () => {
 
               <li></li>
             </ul>
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-once="true"
@@ -368,7 +368,7 @@ const Facilities = () => {
                 src={Vehicle1}
                 alt=""
               />
-            </div>
+            </div> */}
 
             <div
               data-aos="fade-up"
@@ -376,87 +376,10 @@ const Facilities = () => {
               data-aos-once="true"
               class="absolute top-20 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating"
             >
-              {/* <svg
-                class="h-16 sm:h-24"
-                viewBox="0 0 149 149"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_d)">
-                  <rect
-                    x="40"
-                    y="32"
-                    width="69"
-                    height="69"
-                    rx="14"
-                    fill="#F3627C"
-                  />
-                </g>
-                <rect
-                  x="51.35"
-                  y="44.075"
-                  width="47.3"
-                  height="44.85"
-                  rx="8"
-                  fill="white"
-                />
-                <path
-                  d="M74.5 54.425V78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M65.875 58.7375L65.875 78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M83.125 63.9125V78.575"
-                  stroke="#F25471"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-                <defs>
-                  <filter
-                    id="filter0_d"
-                    x="0"
-                    y="0"
-                    width="149"
-                    height="149"
-                    filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feColorMatrix
-                      in="SourceAlpha"
-                      type="matrix"
-                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    />
-                    <feOffset dy="8" />
-                    <feGaussianBlur stdDeviation="20" />
-                    <feColorMatrix
-                      type="matrix"
-                      values="0 0 0 0 0.825 0 0 0 0 0.300438 0 0 0 0 0.396718 0 0 0 0.26 0"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in2="BackgroundImageFix"
-                      result="effect1_dropShadow"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="effect1_dropShadow"
-                      result="shape"
-                    />
-                  </filter>
-                </defs>
-              </svg> */}
+               
             </div>
 
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-once="true"
@@ -480,7 +403,7 @@ const Facilities = () => {
                 src={Vehicle3}
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
