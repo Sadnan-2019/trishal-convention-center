@@ -7,32 +7,43 @@ const NewOffer = () => {
     <div>
       <div className="min-h-screen bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] flex items-center justify-center bg-cover bg-center   relative">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0"></div>
+        {/* <div className="absolute inset-0 z-0"></div> */}
 
         {/* Content Grids */}
-        <div className="relative z-10 text-white text-center">
-          <h1 className="text-4xl font-bold mb-4">Your Title Here</h1>
-          <p className="text-lg mb-8">Your awesome tagline goes here.</p>
+        <div className="  text-white text-center">
+         
 
-          <div className="grid grid-cols-2 gap-8">
-            {/* Left Grid */}
-            <div>
-              <img
-                className="w-3/6 h-full   "
-                src={discount}
-                alt="Background"
-              />
-            </div>
+          <div className="  py-10  lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-items-center items-center">
+              <div className="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
+                <h2
+                  style={{ lineHeight: "120%" }}  
+                  className=" text-white text-4xl lg:text-[44px] font-bold   text-transparent   "
+                >
+                  {" "}
+                  Get Up To 25% Off
+                </h2>
+              
+ 
 
-            {/* Right Grid */}
-            <div>
-              <img
-                className="w-3/6 h-full   "
-                src={discount2}
-                alt="Background"
-              />
+                <div className="flex  gap-4 mt-10 text-center">
+                  <a
+                    href="/"
+                    className="slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600"
+                  >
+                    MORE EXPLORE
+                    {/* <BsArrowRight className="text-lg   lg:ml-2" /> */}
+                  </a>
+                </div>
+              </div>
+
+              <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+                <img
+                  src={discount}
+                  alt=""
+                  className="rounded-lg w-4/5"
+                />
+              </div>
             </div>
-          </div>
         </div>
 
         {/* Bottom Curve SVG Animation */}

@@ -134,7 +134,7 @@ const Navbar = () => {
       <li className="nav-item p-2  	list-none">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/contact"
+          to="/contact-us"
         >
           CONTACTS
         </NavLink>

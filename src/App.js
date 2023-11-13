@@ -7,20 +7,22 @@ import "slick-carousel/slick/slick.css";
 import Navbar from './Components/Navbar/Navbar';
 import TopNav from './Components/TopNav/TopNav';
 import Footer from './Components/Footer/Footer';
-import Menu from './Components/Menu/Menu';
+// import Menu from './Components/Menu/Menu';
 import { Route, Routes } from 'react-router-dom';
 import Waterlily from './Components/Waterlilyhall/Waterlily';
 import Tulip from './Components/Tulip/Tulip';
-import FoodItem from './Components/Foods/FoodItem';
+// import FoodItem from './Components/Foods/FoodItem';
 import Orkid from './Components/Orkidhall/Orkid';
 import Sunflower from './Components/Sunflower/Sunflower';
 import Rose from './Components/Rose/Rose';
 import Facilities from './Components/Facilities/Facilities';
 import About from './Components/About/About';
 import Camellia from './Components/Camellia/Camellia';
-import HomeContact from './Components/Why/Contact/HomeContact';
-import Offer from './Components/Offer/Offer';
-import NewOffer from './Components/Offer/NewOffer';
+// import HomeContact from './Components/Why/Contact/HomeContact';
+// import Offer from './Components/Offer/Offer';
+// import NewOffer from './Components/Offer/NewOffer';
+import MainOffer from './Components/Offer/MainOffer';
+import NavContact from './Components/NavContact/NavContact';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
@@ -43,7 +45,8 @@ function App() {
         <Route path="/tgr" element={<Tulip/>}></Route>
         <Route path="/facilities" element={<Facilities/>}></Route>
         <Route path="/about-us" element={<About/>}></Route>
-        <Route path="/offer" element={<NewOffer/>}></Route>
+        <Route path="/offer" element={<MainOffer/>}></Route>
+        <Route path="/contact-us" element={<NavContact/>}></Route>
         
          
       
