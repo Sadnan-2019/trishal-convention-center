@@ -16,7 +16,7 @@ import {
 
 const Review = () => {
   return (
-    <div className="h-scren  mb-10 review ">
+    <div className="h-scren  mb-10  bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] ">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -44,7 +44,7 @@ const Review = () => {
 
         <SwiperSlide>
           <div class="container mx-auto p-10  px-4">
-            <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
+            <div class="   inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex  rounded-lg border shadow-lg pb-6 lg:pb-0">
               <div class="w-full lg:w-1/3 lg:p-4">
                 <img
                   src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -58,7 +58,7 @@ const Review = () => {
                   <p class="work-sans font-semibold text-xl text-white">
                     Segoe cute
                   </p>
-                  <p class="raleway text-sm my-4 text-white opacity-75">
+                  <p class="raleway text-sm my-4 text-white  ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Exercitationem fuga odit repellendus vero iure alias
                     accusamus ex sed facilis magni aperiam dicta obcaecati,

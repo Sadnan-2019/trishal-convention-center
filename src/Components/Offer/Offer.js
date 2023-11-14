@@ -14,13 +14,13 @@ const Offer = () => {
                  <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20   ">
                      <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16 ">
                          <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12  ">
-                             <h1 class="text-4xl text-white font-bold md:text-5xl  ">Book now and benefit up to <span class="text-blue-500">30% off</span></h1>
+                             <h1 class="text-4xl text-white font-bold md:text-5xl  ">Book now and benefit up to <span class="text-blue-500">25% off</span></h1>
                              {/* <p class="text-lg">Be part of millions people around the world using tailus in modern User Interfaces.</p> */}
                              <div class="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end  ">
                                  <button type="button" title="Start buying" class="w-full py-3 px-6 text-center rounded-xl transition bg-gray-700 shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max">
-                                     <span class="block text-white font-semibold">
+                                     <a href='/offer' class="block text-white font-semibold">
                                      More about
-                                     </span>
+                                     </a>
                                  </button>
                                  {/* <button type="button" title="more about" class="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max">
                                      <span class="block text-gray-600 font-semibold">

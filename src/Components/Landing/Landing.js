@@ -68,7 +68,7 @@ const Landing = () => {
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
                 <h2
                   style={{ lineHeight: "120%" }}
-                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
+                  className={`slide-text text-[25px] lg:text-[43px] font-bold   text-left   text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
                     currentSlide === 0 ? "animated" : ""
                   }`}
                 >

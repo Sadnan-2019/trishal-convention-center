@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import tgr from "../../assets/tgr.jpg";
+import waterlilynew from "../../assets/wedding11.jpg";
+import waterlilytwo from "../../assets/wedding2.jpg";
 import tgrone from "../../assets/tgrone.png";
 import tgrtwo from "../../assets/tgr2.jpg";
 import tgrthree from "../../assets/tgr3.png";
@@ -7,14 +8,14 @@ import sunflower from "../../assets/sunflower.jpg"
 import suntwo from "../../assets/suntwo.jpg"
 import sunthree from "../../assets/sunthree.jpg"
 import sunfour from "../../assets/sunfour.jpg"
-import orikid from "../../assets/orkidhall.jpg"
-import orikidone from "../../assets/orkidfour.jpg"
+import waterlilythree from "../../assets/holud10.jpg"
+import waterlilyfour from "../../assets/holud3.jpg"
 import orikidnew from "../../assets/wedding3.jpg"
 import orikidnewone from "../../assets/wedding6.jpg"
 import orikidnewtwo from "../../assets/wedding9.jpg"
 // import orikidtwo from "../../assets/orkidtwo.jpg"
-import orikidthree from "../../assets/orkidthree.jpg"
-import orikidfour from "../../assets/orkidone.jpg"
+import orikidthree from "../../assets/rose5.jpg"
+import orikidfour from "../../assets/rose6.jpg"
 import waterlily from "../../assets/Waterlily.jpeg"
 import orkidhome from "../../assets/orkidhome.jpeg"
 import tulip from "../../assets/rbghome.jpeg"
@@ -52,7 +53,7 @@ const Services = () => {
                       <img className="w-20" alt="" src={tgrone} />
                     </div>
                     <button className="btn btn-sm rounded-lg  mt-[50px]">
-                    More Info
+                  <a href="/tgr">MORE INFO</a>
                   </button>
                   </div>
                   <div className="w-full h-full">
@@ -79,7 +80,7 @@ const Services = () => {
                        
                     </div>
                     <button className="btn btn-sm rounded-lg   mt-[50px]">
-                    More Info
+                    <a href="/sunflower">MORE INFO</a>
                   </button>
                   </div>
                   <div className="w-full h-full">
@@ -96,14 +97,14 @@ const Services = () => {
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
-                <img src={waterlily} />
+                <img src={waterlily} alt=""/>
               </div>
               <div class="absolute rounded-lg shadow-xl my-rotate-y-180 backface-hidden w-full h-full bg-gradient-to-r from-[#1F5185] via-[#028AC8] to-[#1A5A94] overflow-hidden">
                 <div class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
                   <div class="  px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-150">
                     <div className="flex gap-5">
-                      <img className="w-20 rounded-full" alt="" src={orikidthree} />
-                      <img className="w-20 rounded-full" alt="" src={orikidfour} />
+                      <img className="w-20 rounded-full" alt="" src={waterlilytwo} />
+                      <img className="w-20 rounded-full" alt="" src={waterlilynew} />
                     </div>
 
 
@@ -111,12 +112,13 @@ const Services = () => {
                    <div className="">
                     
                    <button className="btn btn-sm rounded-lg mt-[50px] ">
-                    More Info
+                    <a href="/water-lily-hall"> MORE INFO</a>
+                   
                   </button>
                    </div>
                   </div>
                   <div className="w-full h-full">
-                    <img className="" alt="" src={orikidone} />
+                    <img className="" alt="" src={waterlilythree} />
                   </div>
                   
                 </div>
@@ -143,7 +145,7 @@ const Services = () => {
                    <div className="">
                     
                    <button className="btn btn-sm rounded-lg mt-[50px] ">
-                    More Info
+                    <a href="/orcid-hall">MORE INFO</a>
                   </button>
                    </div>
                   </div>
@@ -156,7 +158,7 @@ const Services = () => {
             </div>
           </div>
         </section>
-        <section class=" rounded-lg   text-white">
+        {/* <section class=" rounded-lg   text-white">
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
               <div class="absolute backface-hidden border-2 w-full h-full">
@@ -187,7 +189,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section class=" rounded-lg    text-white">
           <div class="w-[300px] shadow-xl h-[420px] bg-transparent cursor-pointer group perspective rounded-lg">
             <div class="relative  preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 ">
