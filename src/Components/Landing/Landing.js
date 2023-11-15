@@ -64,22 +64,22 @@ const Landing = () => {
       <Slider {...settings} className="">
         <div className="  ">
           <section className="landingone   blog h-auto      text-white">
-            <div className="  py-10  lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+            <div className="  md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
                 <h2
                   style={{ lineHeight: "120%" }}
-                  className={`slide-text text-[25px] lg:text-[43px] font-bold   text-left   text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
+                  className={`slide-text text-[25px] lg:text-[40px] font-bold   text-left   text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
                     currentSlide === 0 ? "animated" : ""
                   }`}
                 >
                   {" "}
-                  Trishal Convention Center (TCC) is a business organization
+                  Trishal Convention Center (TCC) is a Business Organization.
                 </h2>
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                    className={`slide-text p-1 btn-sm lg:btn-md  lg:p-2 rounded-full  lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                       currentSlideTwo === 0 ? "animatedpic" : ""
                     }`}
                   >
@@ -121,12 +121,13 @@ const Landing = () => {
               <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                 <h2
                   style={{ lineHeight: "120%" }}
-                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                  className={`slide-text  text-[25px] lg:text-[40px] font-bold  text-left   text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
                     currentSlide === 1 ? "animated" : ""
                   }`}
                 >
                   {" "}
-                  SUNFLOWER RESIDENCE.
+                  
+                  The Most Modern and Luxurious Residential Hotel in The Whole of Mymensingh
                 </h2>
 
                 <h1
@@ -137,7 +138,7 @@ const Landing = () => {
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                    className={`slide-text btn-sm p-1 lg:btn-md lg:p-2 rounded-full  lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                       currentSlideTwo === 1 ? "animatedpic" : ""
                     }`}
                   >
@@ -153,15 +154,11 @@ const Landing = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <svg
-                className=""
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1440 320"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
                   fill="white"
-                  fill-opacity="50"
-                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                  fill-opacity="1"
+                  d="M0,288L120,266.7C240,245,480,203,720,208C960,213,1200,267,1320,293.3L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                 ></path>
               </svg>
             </div>

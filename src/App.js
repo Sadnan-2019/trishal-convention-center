@@ -23,7 +23,7 @@ import Camellia from './Components/Camellia/Camellia';
 // import NewOffer from './Components/Offer/NewOffer';
 import MainOffer from './Components/Offer/MainOffer';
 import NavContact from './Components/NavContact/NavContact';
-import Menu from './Components/Menu/Menu';
+// import Menu from './Components/Menu/Menu';
 // import Foods from './Components/Foods/Foods';
 
 function App() {
