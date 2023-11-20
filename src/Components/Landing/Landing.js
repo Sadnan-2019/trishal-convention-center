@@ -171,7 +171,7 @@ const Landing = () => {
               <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                 <h2
                   style={{ lineHeight: "120%" }}
-                  className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
+                  className={`slide-text   text-[25px] lg:text-[40px] font-bold  text-left   text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
                     currentSlide === 2 ? "animated" : ""
                   }`}
                 >
@@ -187,7 +187,7 @@ const Landing = () => {
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
                     href="/"
-                    className={`slide-text btn-md lg:p-2 rounded-full  text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                    className={`slide-text btn-sm p-1 lg:btn-md lg:p-2 rounded-full  lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                       currentSlideTwo === 2 ? "animatedpic" : ""
                     }`}
                   >
