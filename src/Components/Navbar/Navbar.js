@@ -29,7 +29,6 @@ const Navbar = () => {
           HOME
         </NavLink>
       </li>
- 
 
       <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
         <NavLink className="mx-1 text-white-600  font-bold   p-0 lg:text-blue-800">
@@ -98,10 +97,9 @@ const Navbar = () => {
               }
               to="/rbg"
             >
-             Rose Beauty Garden
+              Rose Beauty Garden
             </NavLink>
           </li>
-          
         </ul>
       </li>
 
@@ -144,6 +142,8 @@ const Navbar = () => {
 
   return (
     <div>
+      
+
       <nav className="     lg:bg-gray-100 shadow-lg border-l-gray-100 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-semibold text-xl">
@@ -181,12 +181,14 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div  
+        <div
           className={`md:hidden ${
             isOpen ? "transform translate-x-0" : "transform -translate-x-full"
           } transition-right duration-300 `}
         >
-          <div className="flex flex-col items-center mt-2 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white ">{navItem}</div>
+          <div className="flex flex-col items-center mt-2 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white ">
+            {navItem}
+          </div>
         </div>
       </nav>
     </div>

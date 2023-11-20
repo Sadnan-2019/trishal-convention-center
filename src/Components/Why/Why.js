@@ -6,9 +6,9 @@ const Why = () => {
     <div className="   ">
       <div className="why-back p-11">
         <div class="  ">
-          <div class="  p-4 min-h-screen">
-            <div class="max-w-7xl mx-auto h-max px-6 md:px-12 xl:px-6">
-              <div class="md:w-2/3 lg:w-1/2">
+          <div class="  p-4  ">
+            <div class="     px-6 md:px-12 xl:px-6">
+              <div class=" ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -29,9 +29,9 @@ const Why = () => {
                   possible
                 </p>
               </div>
-              <div class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
-                <div class="group shadow-2xl relative bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] bg-opacity-50 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                  <div class="relative space-y-8 py-12 p-8">
+              <div class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-1 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+                <div class=" lg:w-2/6 shadow-2xl   bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] bg-opacity-50 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                  <div class="  space-y-8 py-12 p-8">
                     <svg
                       stroke="currentColor"
                       fill="none"
@@ -59,7 +59,7 @@ const Why = () => {
                     </div>
                   </div>
                 </div>
-                <div class="group shadow-2xl relative bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="  shadow-2xl    bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                   <div class="relative space-y-8 py-12 p-8">
                     <svg
                       stroke="currentColor"
@@ -87,7 +87,7 @@ const Why = () => {
                     </div>
                   </div>
                 </div>
-                <div class="group shadow-2xl relative bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class=" file: shadow-2xl  file: bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                   <div class="relative space-y-8 py-12 p-8">
                     <svg
                       stroke="currentColor"
@@ -115,7 +115,7 @@ const Why = () => {
                     </div>
                   </div>
                 </div>
-                <div class="group shadow-2xl relative bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="  shadow-2xl   bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                   <div class="relative space-y-8 py-12 p-8">
                     <svg
                       stroke="currentColor"
