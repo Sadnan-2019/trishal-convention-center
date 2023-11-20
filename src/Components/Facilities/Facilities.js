@@ -357,18 +357,7 @@ const Facilities = () => {
 
               <li></li>
             </ul>
-            {/* <div
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-once="true"
-              class="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-1  floating-4"
-            >
-              <img
-                class="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16 lg:h-24 w-32 lg:-left-[20px]  "
-                src={Vehicle1}
-                alt=""
-              />
-            </div> */}
+        
 
             <div
               data-aos="fade-up"
@@ -379,31 +368,7 @@ const Facilities = () => {
                
             </div>
 
-            {/* <div
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-once="true"
-              class="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20   lg:-lef-1 floating"
-            >
-              <img
-                class="bg-white bg-opacity-80 rounded-lg  lg:h-24 w-32 sm:h-28"
-                src={Vehicle2}
-                alt=""
-              />
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-once="true"
-              class="absolute bottom-20 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4"
-            >
-              <img
-                class="bg-white bg-opacity-80 rounded-lg lg:h-24 lg:w-24 sm:h-16"
-                src={Vehicle3}
-                alt=""
-              />
-            </div> */}
+             
           </div>
         </div>
       </div>
