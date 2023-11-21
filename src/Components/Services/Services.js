@@ -22,6 +22,7 @@ import tulip from "../../assets/rbghome.jpeg"
 import rbg from "../../assets/rbgnew.jpeg"
 
 import "./Services.css";
+// import Gallery from "../Gallery/Gallery";
 
 const Services = () => {
   return (
@@ -37,6 +38,8 @@ const Services = () => {
 
         </h2>
       </div>
+
+      {/* <Gallery></Gallery> */}
 
       <div className="py-10  grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3   items-center justify-items-center ">
         <section class="rounded-lg     text-white">

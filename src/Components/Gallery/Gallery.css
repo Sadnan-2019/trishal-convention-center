@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+  }
+  
+  .gallery-item {
+    flex: 0 0 calc(33.333% - 2rem);
+    margin: 1rem;
+   
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+     
+  }
