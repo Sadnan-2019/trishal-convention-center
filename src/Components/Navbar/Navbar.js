@@ -261,16 +261,16 @@ const Navbar = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div className="md:hidden absolute top-0 left-0 w-full h-screen   z-50">
+        <div className="md:hidden absolute top-0 left-0 w-full h-screen  bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] z-50">
           <div className="flex justify-end p-4">
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white focus:outline-none"
+              className="text-black text-xl font-bold bg-white rounded-full  p-2  focus:outline-none"
             >
-              Close
+              X
             </button>
           </div>
-          <div className="flex flex-col items-center  mt-2 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white">
+          <div className="flex flex-col items-center  mt-2  text-white">
             {navItem}
           </div>
         </div>
