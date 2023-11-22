@@ -6,45 +6,52 @@ const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
     return (
       <div>
-      {/* Desktop Navbar */}
-      <nav className="hidden md:flex items-center justify-between bg-gray-800 p-4">
-        {/* Your Navbar Content */}
-        <div>
-          <a href="#" className="text-white">Home</a>
-          <a href="#" className="text-white ml-4">About</a>
-          {/* Add more links as needed */}
+      <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white">Logo</div>
+        <div className="hidden md:flex space-x-4">
+          {/* Add other sections here */}
+          <a href="#" className="text-white">Section 1</a>
+          <a href="#" className="text-white">Section 2</a>
+          <a href="#" className="text-white">Section 3</a>
         </div>
-      </nav>
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-white focus:outline-none"
+          >
+            Menu
+          </button>
+        </div>
+      </div>
 
-      {/* Mobile & Tablet Navbar */}
-      <nav className="md:hidden">
-        {/* Hamburger Icon */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="  p-2 focus:outline-none text-red-400"
-        >
-          ☰
-        </button>
-
-        {/* Mobile & Tablet Navbar Links */}
-        <Transition
-          show={isOpen}
-          enter="transition ease-out duration-100 transform"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="transition ease-in duration-75 transform"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <div className="absolute top-100 left-1000 w-full h-screen bg-gray-800 p-4">
-            <div>
-              <a href="#" className="text-white">Home</a>
-              <a href="#" className="text-white mt-2">About</a>
-              {/* Add more links as needed */}
-            </div>
+      {/* Responsive Dropdown */}
+      <Transition
+        show={isOpen}
+        enter="transition-opacity duration-300"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-300"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <div className="md:hidden absolute top-0 left-0 w-full h-screen bg-gray-800 z-50">
+          <div className="flex justify-end p-4">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="text-white focus:outline-none"
+            >
+              Close
+            </button>
           </div>
-        </Transition>
-      </nav>
+          <div className="flex flex-col items-center">
+            <a href="#" className="text-white my-2">Section 1</a>
+            <a href="#" className="text-white my-2">Section 2</a>
+            <a href="#" className="text-white my-2">Section 3</a>
+          </div>
+        </div>
+      </Transition>
+    </nav>
     </div>
     );
 };

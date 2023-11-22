@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <ul
           tabIndex={0}
-          className="w-32 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] bg-opacity-50     "
+          className="w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] bg-opacity-50     "
           // style={{ backgroundColor: "#3E84DC" }}
         >
           <li className="nav-item p-2">
