@@ -24,6 +24,7 @@ import Camellia from './Components/Camellia/Camellia';
 import MainOffer from './Components/Offer/MainOffer';
 import NavContact from './Components/NavContact/NavContact';
 import Menu from './Components/Menu/Menu';
+import NewMenu from './Components/Menu/NewMenu';
 // import Menu from './Components/Menu/Menu';
 // import Foods from './Components/Foods/Foods';
 
@@ -33,12 +34,13 @@ function App() {
        {/* <Menu></Menu> */}
       <TopNav></TopNav>
 
-      {/* <Navbar/>
+      <Navbar/>
 
       
-       */}
+      
 
-      <Menu></Menu> 
+      {/* <Menu></Menu>  */}
+      {/* <NewMenu></NewMenu> */}
       <Routes>
       <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>

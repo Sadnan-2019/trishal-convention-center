@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/tcclogo.png";
+import { Transition } from "@headlessui/react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
   const navItem = (
     <>
       <li className="nav-item p-2 list-none 	">
-        <NavLink
+        <NavLink onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"
         >
@@ -41,7 +42,7 @@ const Navbar = () => {
           // style={{ backgroundColor: "#3E84DC" }}
         >
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -51,7 +52,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -61,7 +62,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -71,7 +72,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -81,7 +82,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -91,7 +92,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink
+            <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
               }
@@ -104,7 +105,7 @@ const Navbar = () => {
       </li>
 
       <li className="nav-item p-2 	list-none">
-        <NavLink
+        <NavLink onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
           to="/facilities"
         >
@@ -112,7 +113,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li className="nav-item p-2 	list-none">
-        <NavLink
+        <NavLink onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
           to="/offer"
         >
@@ -121,7 +122,7 @@ const Navbar = () => {
       </li>
 
       <li className="nav-item p-2 list-none	">
-        <NavLink
+        <NavLink onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about-us"
         >
@@ -130,11 +131,12 @@ const Navbar = () => {
       </li>
 
       <li className="nav-item p-2  	list-none">
-        <NavLink
+        <NavLink onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact-us"
         >
           CONTACTS
+          
         </NavLink>
       </li>
     </>
@@ -144,7 +146,7 @@ const Navbar = () => {
     <div>
       
 
-      <nav className="     lg:bg-gray-100 shadow-lg border-l-gray-100 p-4">
+      {/* <nav className="     lg:bg-gray-100 shadow-lg border-l-gray-100 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-semibold text-xl">
             <img src={logo} className="w-24 rounded-lg" alt="" />
@@ -190,7 +192,103 @@ const Navbar = () => {
             {navItem}
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* ////////////////new nav  */}
+
+<nav className="lg:bg-gray-100 shadow-lg border-l-gray-100 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+      <div className="text-white font-semibold text-xl">
+            <img src={logo} className="w-24 rounded-lg" alt="" />
+          </div>
+        <div className="hidden md:flex space-x-4">
+          {/* Add other sections here */}
+          {navItem}
+        </div>
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-blue focus:outline-none"
+          >
+             <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {isOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Responsive Dropdown */}
+      <Transition
+        show={isOpen}
+        enter="transition-opacity duration-300"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-300"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <div className="md:hidden absolute top-0 left-0 w-full h-screen   z-50">
+          <div className="flex justify-end p-4">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="text-white focus:outline-none"
+            >
+              Close
+            </button>
+          </div>
+          <div className="flex flex-col items-center  mt-2 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white">
+            {navItem}
+          </div>
+        </div>
+      </Transition>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };
