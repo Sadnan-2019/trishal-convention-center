@@ -25,12 +25,15 @@ const Facilities = () => {
         </div>
 
         <div class="">
-          <div class="mx-auto flex h-[500px] max-w-[90rem] flex-col justify-center rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
+          <div class="  rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
             <div class="pointer-events-none absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-white dark:bg-black"></div>
-            <span class="mb-8 text-center text-4xl font-bold">
+            <p class="mb-8 text-center text-4xl font-bold">
               High-Speed Free Wi-Fi
-            </span>
-            <ul class="flex flex-wrap text-sm font-medium text-white dark:text-white sm:text-base md:mx-auto md:max-w-screen-sm">
+            </p>
+           
+            <div className="  ">
+
+            <ul class=" flex   flex-col md:flex-row items-center justify-center lg:mx-10   text-sm font-medium text-white dark:text-white sm:text-base ">
               <li class="my-1 flex w-1/2 items-center">
                 <svg
                   class="mr-2 flex-shrink-0 text-blue-500"
@@ -81,6 +84,12 @@ const Facilities = () => {
 
               <li></li>
             </ul>
+
+
+            </div>
+
+
+
             <div
               data-aos="fade-up"
               data-aos-delay="300"
@@ -210,7 +219,7 @@ const Facilities = () => {
             </div> */}
           </div>
         </div>
-
+{/* 
         <div class="py-6 parking">
           <div class="mx-auto  flex   max-w-[90rem] flex-col justify-center rounded-2xl    px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 border-blue-500">
             <div class="pointer-events-none absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-white dark:bg-black"></div>
@@ -370,7 +379,7 @@ const Facilities = () => {
 
              
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

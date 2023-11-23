@@ -6,9 +6,9 @@ import { Transition } from "@headlessui/react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleNavbar = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-[#215083]  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
@@ -32,7 +32,7 @@ const Navbar = () => {
       </li>
 
       <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
-        <NavLink className="mx-1 text-white-600  font-bold   p-0 lg:text-blue-800">
+        <NavLink className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800">
           SERVICES
         </NavLink>
 
