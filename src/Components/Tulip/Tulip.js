@@ -7,7 +7,7 @@ import TulipMenu from "./TulipMenu";
 
 const Tulip = () => {
   return (
-    <div>
+    <div className="">
      
       <TulipLanding></TulipLanding>
       <TulipDetails></TulipDetails>

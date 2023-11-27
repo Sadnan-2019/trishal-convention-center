@@ -28,28 +28,26 @@ const Facilities = () => {
         <div class="container my-12  md:px-6 ">
           <section class=" relative  text-center">
             <div class="  ">
-            
-                <div
-                  class="mb-6 flex mx-auto flex-wrap  justify-center items-center overflow-hidden rounded-lg  px-3 lg:w-2/3   "
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={wifi} class="lg:h-1/4 lg:w-2/3 rounded-lg " alt=""/>
+              <div
+                class="mb-6 flex mx-auto flex-wrap  justify-center items-center overflow-hidden rounded-lg  px-3 lg:w-2/3   "
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                <img src={wifi} class="lg:h-1/4 lg:w-2/3 rounded-lg " alt="" />
 
-                  <div class="w-full shrink-0 grow-0 basis-auto px-3   text-indigo-100">
-                <h5 class="py-5 text-2xl font-bold">High-Speed Free Wi-Fi</h5>
+                <div class="w-full shrink-0 grow-0 basis-auto px-3   text-indigo-100">
+                  <h5 class="py-5 text-2xl font-bold">High-Speed Free Wi-Fi</h5>
 
-                <p class="mb-6">
-                  We are living in a digital era. So social media is very
-                  important part of our life. There are other necessity for
-                  internet too.Our halls are covered with high speed secured
-                  wifi for clients so that no one need to worry about data pack
-                  or speed. Just connect yourself to the digital world easily.
-                </p>
-              </div>
+                  <p class="mb-6">
+                    We are living in a digital era. So social media is very
+                    important part of our life. There are other necessity for
+                    internet too.Our halls are covered with high speed secured
+                    wifi for clients so that no one need to worry about data
+                    pack or speed. Just connect yourself to the digital world
+                    easily.
+                  </p>
                 </div>
-            
-              
+              </div>
             </div>
             <div
               data-aos="fade-up"
@@ -177,30 +175,27 @@ const Facilities = () => {
             </div>
           </section>
         </div>
-
-        <div class="container my-12 mx-auto md:px-6 ">
+        <div class="container my-12  md:px-6 ">
           <section class=" relative  text-center">
-            <div class=" flex flex-wrap justify-center">
-              <div class="  shrink-0 grow-0 basis-auto px-3 md:w-2/3">
-                <div
-                  class=" mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={Vehicle3} class=" " />
-                </div>
-              </div>
+            <div class="  ">
+              <div
+                class="mb-6 flex mx-auto flex-wrap  justify-center items-center overflow-hidden rounded-lg  px-3 lg:w-2/3   "
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                <img src={Vehicle3} class="lg:h-1/4 lg:w-2/3 rounded-lg " alt="" />
 
-              <div class="w-full shrink-0 grow-0 basis-auto px-3 md:w-8/12 xl:w-6/12 text-indigo-100">
-                <h5 class="mb-3 text-2xl font-bold">200+ Vehicle Parking</h5>
+                <div class="w-full shrink-0 grow-0 basis-auto px-3   text-indigo-100">
+                  <h5 class="py-5 text-2xl font-bold">200+ Vehicle Parking</h5>
 
-                <p class="mb-6">
+                  <p class="mb-6">
                   We understand guests can come from very different locations.
                   So having a parking space is very important in busy places. We
                   have large underground facility with 100+ car parking
                   capability. So you don’t need to worry about your guest’s car
                   parking space at all.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -329,29 +324,27 @@ const Facilities = () => {
             </div>
           </section>
         </div>
-        <div class="container my-12 mx-auto md:px-6 ">
+        <div class="container my-12  md:px-6 ">
           <section class=" relative  text-center">
-            <div class=" flex flex-wrap justify-center">
-              <div class="  shrink-0 grow-0 basis-auto px-3 md:w-2/3">
-                <div
-                  class=" mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={cctv} class="h-1/2 " />
-                </div>
-              </div>
+            <div class="  ">
+              <div
+                class="mb-6 flex mx-auto flex-wrap  justify-center items-center overflow-hidden rounded-lg  px-3 lg:w-2/3   "
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                <img src={cctv} class="lg:h-1/4 lg:w-2/3 rounded-lg " alt="" />
 
-              <div class="w-full shrink-0 grow-0 basis-auto px-3 md:w-8/12 xl:w-6/12 text-indigo-100">
-                <h5 class="mb-3 text-2xl font-bold">24/7 CCTV Coverage</h5>
+                <div class="w-full shrink-0 grow-0 basis-auto px-3   text-indigo-100">
+                  <h5 class="py-5 text-2xl font-bold">24/7 CCTV Coverage</h5>
 
-                <p class="mb-6">
+                  <p class="mb-6">
                   We all need security and safety. So having a surveillance
                   system is very important. As we may not know when something
                   unexpected happens. Our halls are equipped with 24/7 CCTV
                   surveillance and every action is being monitored properly. So
                   if anythings unexpected happens, we can help our clients.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -480,6 +473,14 @@ const Facilities = () => {
             </div>
           </section>
         </div>
+
+
+
+
+
+
+       
+    
       </div>
     </div>
   );
