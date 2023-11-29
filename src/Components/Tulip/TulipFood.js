@@ -1,9 +1,9 @@
 import React from "react";
-import food from "../../assets/tgr3.png";
-import food1 from "../../assets/food3.png";
-import food2 from "../../assets/tgrone.png";
-import food3 from "../../assets/food4.png";
-import food4 from "../../assets/food4.png";
+import food from "../../assets/tulipfood.jpg";
+import food1 from "../../assets/tulipfoodone.jpg";
+import food2 from "../../assets/tulipfoodtwo.jpg";
+import food3 from "../../assets/tulipfoodthree.jpg";
+import food4 from "../../assets/tgr3.jpg";
 import food5 from "../../assets/food5.png";
 import food6 from "../../assets/food6.png";
 import "./TulipFood.css";
@@ -19,7 +19,8 @@ const TulipFood = () => {
 <div class=" ">
   <div class="py-10  grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3   items-center justify-items-center  ">
     <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1580477371194-4593e3c7c6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <img class="w-full rounded-lg object-cover object-center"
+       src={food} alt="product" />
       <div>
         <div class="my-6 flex items-center justify-between px-4">
           <p class="font-bold text-gray-500">Product Name</p>
@@ -44,7 +45,8 @@ const TulipFood = () => {
       </div>
     </div>
     <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1580477371194-4593e3c7c6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <img class="w-full rounded-lg object-cover object-center" 
+      src={food1} alt="product" />
       <div>
         <div class="my-6 flex items-center justify-between px-4">
           <p class="font-bold text-gray-500">Product Name</p>
@@ -69,7 +71,8 @@ const TulipFood = () => {
       </div>
     </div>
     <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1580477371194-4593e3c7c6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <img class="w-full rounded-lg object-cover object-center" 
+      src={food2} alt="product" />
       <div>
         <div class="my-6 flex items-center justify-between px-4">
           <p class="font-bold text-gray-500">Product Name</p>
@@ -94,7 +97,7 @@ const TulipFood = () => {
       </div>
     </div>
     <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1580477371194-4593e3c7c6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <img class="w-full rounded-lg object-cover object-center" src={food3} alt="product" />
       <div>
         <div class="my-6 flex items-center justify-between px-4">
           <p class="font-bold text-gray-500">Product Name</p>
@@ -119,7 +122,8 @@ const TulipFood = () => {
       </div>
     </div>
     <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1580477371194-4593e3c7c6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <img class="w-full rounded-lg object-cover object-center" 
+      src={food4} alt="product" />
       <div>
         <div class="my-6 flex items-center justify-between px-4">
           <p class="font-bold text-gray-500">Product Name</p>
