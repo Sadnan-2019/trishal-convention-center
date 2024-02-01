@@ -3,7 +3,7 @@ import React from "react";
 import "./Why.css";
 const Why = () => {
   return (
-    <div className="   ">
+    <div className=" bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]  ">
       <div class="  ">
         <div class=" p-4 min-h-screen">
           <div class="max-w-7xl mx-auto h-max px-6 md:px-12 xl:px-6">
@@ -27,8 +27,8 @@ const Why = () => {
                 We follow our process to get you started as quickly as possible
               </p>
             </div>
-            <div class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
-              <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border  border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+              <div class=" whyone   text-black    relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -38,7 +38,7 @@ const Why = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     color="white"
-                    className="text-white"
+                    className="text-black"
                     height="50"
                     width="50"
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +48,10 @@ const Why = () => {
                     <path d="M10 10l2 -2v8"></path>
                   </svg>
                   <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-white transition">
+                    <h5 class="text-xl font-semibold text-black transition">
                       Initial Discussion
                     </h5>
-                    <p class="text-gray-300">
+                    <p class="text-black">
                       We will have discussions on the requirements to ensure
                       your MVP (Minimum Viable Product) is ready for the initial
                       launch
@@ -59,7 +59,7 @@ const Why = () => {
                   </div>
                 </div>
               </div>
-              <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -89,7 +89,7 @@ const Why = () => {
                   </div>
                 </div>
               </div>
-              <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="whyone   group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -99,7 +99,7 @@ const Why = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     color="white"
-                    className="text-white"
+                    className="text-black"
                     height="50"
                     width="50"
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,17 +109,17 @@ const Why = () => {
                     <path d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1"></path>
                   </svg>
                   <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">
+                    <h5 class="text-xl font-semibold text-black transition group-hover:text-secondary">
                       Product Delivery
                     </h5>
-                    <p class="text-gray-300">
+                    <p class="text-black">
                       We will develop your product MVP in 15 days (more time
                       required depending on the complexity of the project)
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="group relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"

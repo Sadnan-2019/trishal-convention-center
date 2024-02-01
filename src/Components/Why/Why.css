@@ -1,20 +1,40 @@
 .why-back {
-    background-image: linear-gradient(
-        to left,
-        rgba(49, 16, 234, 0.01),
-        rgba(0, 9, 10, 0.9)
-      ),
-      url("../../assets/whynewback.png");
-    /* background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to left,
+      rgba(49, 16, 234, 0.01),
+      rgba(0, 9, 10, 0.9)
+    ),
+    url("../../assets/whynewback.png");
+  /* background-repeat: no-repeat;
         background-size: cover; */
-    height: auto;
-    width: 100%;
-    /* background-size: contain; */
-    background-size: cover;
-  
-    background-size: 100% 100%;
-  
-    background-repeat: no-repeat;
-  } 
+  height: auto;
+  width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
 
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+}
+
+/* .whyone {
+  border-radius: 11px;
+  background: #eee3e3;
  
+  box-shadow: inset 5px 5px 10px #625d5d, inset -10px -10px 15px #ffffff;
+} */
+/* .whyone {
+  border-radius: 11px;
+  background: #eee3e3;
+  box-shadow: inset -9px 9px 10px #eee3e3,
+              inset 9px -9px 10px #eee3e3;
+} */
+
+
+.whyone{
+
+  /* border-radius: 50px; */
+  background: #efebeb;
+  box-shadow: inset 5px 5px 10px #605e5e,
+              inset -5px -5px 10px #ffffff;
+}
