@@ -41,7 +41,7 @@ const Footer = () => {
                     target="_blank"
                     class="text-white transition hover:opacity-75"
                   >
-                    <span class="sr-only">Facebook</span>
+                    <span class="sr-only text-white">Facebook</span>
 
                     <svg
                       class="h-6 w-6"
