@@ -71,7 +71,7 @@ const Navbar = () => {
               Sunflower Residence
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${active}` : `${dropnormal}`
@@ -80,7 +80,7 @@ const Navbar = () => {
             >
               Tulip Garden & Resturent
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
