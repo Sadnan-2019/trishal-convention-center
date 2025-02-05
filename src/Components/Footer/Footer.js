@@ -1,5 +1,6 @@
 import React from "react";
 import pic1 from "../../assets/footerimge.jpg"
+import WhatsApp from "../WhatsApp/WhatsApp";
 const Footer = () => {
   return (
     <div className="">
@@ -153,6 +154,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <WhatsApp></WhatsApp>
       </footer>
     </div>
   );

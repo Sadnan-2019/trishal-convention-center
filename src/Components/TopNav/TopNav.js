@@ -79,11 +79,11 @@ const TopNav = () => {
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
-                  <a href="tel:+01643-390832 " className="  	">
-                    01643-390832
+                  <a href="tel:+01633-077777 " className="  	">
+                  +880 1633-077777
                   </a>
                 </p>
-                <p className="text-[10px] lg:text-xs  	 	">01643-390832 </p>
+                <p className="text-[10px] lg:text-xs  	 	">+880 1633-088888 </p>
               </div>
             </div>
             <div
